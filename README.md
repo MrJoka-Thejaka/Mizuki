@@ -1,6 +1,6 @@
 <h1 align="center"><b> MIZUKI An user bot for Whatsapp </b></h1>
 
-![logo](https://telegra.ph/file/be3315fb89b7d2930e7b4.jpg)
+![logo](https://telegra.ph/file/e9aca7ad440abd1cad7a1.jpg)
 
 
 
