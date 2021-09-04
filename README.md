@@ -1,4 +1,4 @@
-<h1 align="center"><b> MIZUKI An user bot for Whatsapp </b></h1>
+<h1 align="center"><b>👸 MIZUKI An user bot for Whatsapp 👸</b></h1>
 
 ![logo](https://telegra.ph/file/e9aca7ad440abd1cad7a1.jpg)
 
@@ -59,3 +59,8 @@
 ---------------------------------   
 
 ###  Developer :- Mr.joka
+
+## Thanks To
+- [@adiwajshing](https://github.com/adiwajshing/) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
+- [@yusufusta](https://github.com/yusufusta/) for coded [Base Bot-Asena](https://github.com/yusufusta/WhatsAsena) 
+- [@sisula](https://github.com/sisula/)  for all the helps 🤝
