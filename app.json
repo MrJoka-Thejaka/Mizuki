@@ -30,135 +30,134 @@
 			"description": " Set true for auto date, time in biography.",
 			"required": true,
 			"value": "false"
-		}
-		
-	},
-	"HANDLERS": {
-		"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ",
-		"required": true,
-		"value": "^[.!;]"
-	},
-	"FULL_EVA": {
-		"description": "Turn your account into a chatbot!",
-		"required": true,
-		"value": "false"
-	},
-	"NO_LOG": {
-		"description": "උබට එපා කරපු log messages බලන්න ඕන්නැත්තන් true කියල තියපන්",
-		"required": true,
-		"value": "false"
-	},
-	"SEND_READ": {
-		"description": "බොටා මැසේජ් සීන් කරන්න ඕන්නම් true දියන් ඕන්නැත්තන් false දියන්.",
-		"required": true,
-		"value": "true"
-	},
-	"HEROKU": {
-		"description": "If it is running in Heroku, type true.",
-		"required": true,
-		"value": "true"
-	},
-	"HEROKU_API_KEY": {
-		"description": "Heroku API Key එක දාන්න.",
-		"required": true
-	},
-	"MUTE_MESSAGE": {
-		"description": "ගෲපක් මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම් ",
-		"required": false,
-		"value": "default"
-	},
-	"BLOCK_CHAT": {
-		"description": "බොටා වැඩ කරන්නැති චැට් එක දෙන්න ඕනෙ. Ex: 94######### හෝ 94#########,94#########",
-		"required": false,
-		"value": "false"
-	},
-	"UNMUTE_MESSAGE": {
-		"description": "ගෲපක් අන්මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම්",
-		"required": false,
-		"value": "default"
-	},
-	"BLOCK_MESSAGE": {
-		"description": "මොකෙක් හරි බ්ලොක් කරද්දි එන මැසේජ් එක.",
-		"required": false,
-		"value": "default"
-	},
-	"UNBLOCK_MESSAGE": {
-		"description": "මොකෙක් හරි අන්බ්ලොක් කරද්දි එන මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"WORK_TYPE": {
-		"description": "බොටා වැඩ කරන්න ඕනෙ උබට විතරක්නම් private කියලම තියපන්.. හැමෝටම වැඩ කරන්න ඕන්නම් public කියල දියන්",
-		"required": true,
-		"value": "private"
-	},
-	"HEROKU_APP_NAME": {
-		"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
-		"required": true
-	},
-	"DEBUG": {
-		"description": "උබ මේක දන්නැත්තන් මේකෙ මොකුත් ටයිප් කරන්න එපා.",
-		"required": true,
-		"value": "false"
-	},
-	"REMOVE_BG_API_KEY": {
-		"description": "Images වල background එක අයින් කරන්න ඕන්නම් https://remove.bg එකට ගිහින් දෙන API එක මෙතෙන්ට දාපන්",
-		"required": false
-	},
-	"ALIVE_MESSAGE": {
-		"description": "බොටා ඉන්නවද කියල බලන්න කමාන්ඩ් කලාම එන්න ඕනෙ මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"BAN_MESSAGE": {
-		"description": "මොකෙක්ව හරි ban කරද්දි එන්න ඕනෙ මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"ADD_MESSAGE": {
-		"description": "මොකෙක්ව හරි Add කරද්දි එන්න ඕනෙ මැසේජ් එක.",
-		"required": false,
-		"value": "default"
-	},
-	"KICKME_MESSAGE": {
-		"description": ".kickme ගහල ලෙප්ට් වෙද්දි එන්න ඕනෙ මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"PROMOTE_MESSAGE": {
-		"description": "මොකෙක්ට හරි ඇඩ්මින් දෙද්දි එන්න ඕනෙ මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"DEMOTE_MESSAGE": {
-		"description": "මොකෙක්ගෙන් හරි ඇඩ්මින් අයින් කරද්දි එන්න ඕනෙ මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"AFK_MESSAGE": {
-		"description": "AFK mode එකේ ඉද්දි එන්න ඕනෙ මැසේජ් එක",
-		"required": false,
-		"value": "default"
-	},
-	"GAN_IMAGE": {
-		"description": "Type image link for Gan Style plugin.",
-		"required": true,
-		"value": "https://telegra.ph/file/e9aca7ad440abd1cad7a1.jpg"
-	},
-	"NO_ONLINE": {
-		"description": "බොටා වට්ස් ඇප් එකට එද්දි online කියල එන්න ඕනෙනම් true තියන්න ඕන්නැත්තන් false දෙන්න",
-		"required": false,
-		"value": "true"
-	},
-	"COFFEEHOUSE_API_KEY": {
-		"description": "ඒක අතෑරපන් මේක අපි දෙනව",
-		"required": false,
-		"value": "true"
-	},
-	"addons": [{
-		"plan": "heroku-postgresql"
-	}],
-	"buildpacks": [{
-		"url": "heroku-community/apt"
-	}]
-}
+		},
+		"HANDLERS": {
+			"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ",
+			"required": true,
+			"value": "^[.!;]"
+		},
+		"FULL_EVA": {
+			"description": "Turn your account into a chatbot!",
+			"required": true,
+			"value": "false"
+		},
+		"NO_LOG": {
+			"description": "උබට එපා කරපු log messages බලන්න ඕන්නැත්තන් true කියල තියපන්",
+			"required": true,
+			"value": "false"
+		},
+		"SEND_READ": {
+			"description": "බොටා මැසේජ් සීන් කරන්න ඕන්නම් true දියන් ඕන්නැත්තන් false දියන්.",
+			"required": true,
+			"value": "true"
+		},
+		"HEROKU": {
+			"description": "If it is running in Heroku, type true.",
+			"required": true,
+			"value": "true"
+		},
+		"HEROKU_API_KEY": {
+			"description": "Heroku API Key එක දාන්න.",
+			"required": true
+		},
+		"MUTE_MESSAGE": {
+			"description": "ගෲපක් මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම් ",
+			"required": false,
+			"value": "default"
+		},
+		"BLOCK_CHAT": {
+			"description": "බොටා වැඩ කරන්නැති චැට් එක දෙන්න ඕනෙ. Ex: 94######### හෝ 94#########,94#########",
+			"required": false,
+			"value": "false"
+		},
+		"UNMUTE_MESSAGE": {
+			"description": "ගෲපක් අන්මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම්",
+			"required": false,
+			"value": "default"
+		},
+		"BLOCK_MESSAGE": {
+			"description": "මොකෙක් හරි බ්ලොක් කරද්දි එන මැසේජ් එක.",
+			"required": false,
+			"value": "default"
+		},
+		"UNBLOCK_MESSAGE": {
+			"description": "මොකෙක් හරි අන්බ්ලොක් කරද්දි එන මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"WORK_TYPE": {
+			"description": "බොටා වැඩ කරන්න ඕනෙ උබට විතරක්නම් private කියලම තියපන්.. හැමෝටම වැඩ කරන්න ඕන්නම් public කියල දියන්",
+			"required": true,
+			"value": "private"
+		},
+		"HEROKU_APP_NAME": {
+			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
+			"required": true
+		},
+		"DEBUG": {
+			"description": "උබ මේක දන්නැත්තන් මේකෙ මොකුත් ටයිප් කරන්න එපා.",
+			"required": true,
+			"value": "false"
+		},
+		"REMOVE_BG_API_KEY": {
+			"description": "Images වල background එක අයින් කරන්න ඕන්නම් https://remove.bg එකට ගිහින් දෙන API එක මෙතෙන්ට දාපන්",
+			"required": false
+		},
+		"ALIVE_MESSAGE": {
+			"description": "බොටා ඉන්නවද කියල බලන්න කමාන්ඩ් කලාම එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"BAN_MESSAGE": {
+			"description": "මොකෙක්ව හරි ban කරද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"ADD_MESSAGE": {
+			"description": "මොකෙක්ව හරි Add කරද්දි එන්න ඕනෙ මැසේජ් එක.",
+			"required": false,
+			"value": "default"
+		},
+		"KICKME_MESSAGE": {
+			"description": ".kickme ගහල ලෙප්ට් වෙද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"PROMOTE_MESSAGE": {
+			"description": "මොකෙක්ට හරි ඇඩ්මින් දෙද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"DEMOTE_MESSAGE": {
+			"description": "මොකෙක්ගෙන් හරි ඇඩ්මින් අයින් කරද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"AFK_MESSAGE": {
+			"description": "AFK mode එකේ ඉද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"GAN_IMAGE": {
+			"description": "Type image link for Gan Style plugin.",
+			"required": true,
+			"value": "https://telegra.ph/file/e9aca7ad440abd1cad7a1.jpg"
+		},
+		"NO_ONLINE": {
+			"description": "බොටා වට්ස් ඇප් එකට එද්දි online කියල එන්න ඕනෙනම් true තියන්න ඕන්නැත්තන් false දෙන්න",
+			"required": false,
+			"value": "true"
+		},
+		"COFFEEHOUSE_API_KEY": {
+			"description": "ඒක අතෑරපන් මේක අපි දෙනව",
+			"required": false,
+			"value": "true"
+		 }
+   	 },
+   	 "addons": [{
+   	   "plan": "heroku-postgresql"
+   	 }],
+    	"buildpacks": [{
+    	  "url": "heroku-community/apt"
+     	 }]
+ 	}
