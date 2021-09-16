@@ -30,6 +30,7 @@
 			"description": " Set true for auto date, time in biography.",
 			"required": true,
 			"value": "false"
+		}
 		
 	},
 	"HANDLERS": {
