@@ -58,6 +58,9 @@
 
 ---------------------------------   
 
-##  Developer :- Mr.joka
+###  Developer :- Mr.joka
 
-----------------------------------
+## Thanks To
+- [@adiwajshing](https://github.com/adiwajshing/) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
+- [@yusufusta](https://github.com/yusufusta/) for coded [Base Bot-Asena](https://github.com/yusufusta/WhatsAsena) 
+- [@sisula](https://github.com/sisula/)  for all the helps 🤝
