@@ -15,7 +15,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v1.0 Global Stable',
     CHANNEL: 'https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo',
-    SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.MIZUKI_SESSION,
+    SESSION: process.env.MIZUKI_SESSION === undefined ? '' : process.env.MIZUKI_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegra.ph/file/52d12737a0d15888155ec.jpg' : process.env.GAN_IMAGE,
