@@ -30,7 +30,7 @@
 			"description": " Set true for auto date, time in biography.",
 			"required": true,
 			"value": "false"
-		}
+		
 	},
 	"HANDLERS": {
 		"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ",
