@@ -1,6 +1,6 @@
-/* Codded by Phaticusthiccy
+/* Codded by Phaticusthiccy  & Mr.joka
 
-Eva, The Phaticusthiccy's Multifunctional Artificial Intelligence
+Eva, The Mr.joka's Multifunctional Artificial Intelligence
 
 Eva AI has more than 50 Gigabyte dataset which including neural calculator,
 wikipedia data, sentiment analysis, Instagram workflow with neural cells.
@@ -38,6 +38,8 @@ Therefore, 100% efficiency cannot be obtained from Eva Artificial Intelligence.
 The voice recognition doesn't work with eva infrastructure.
 We are using wit.ai's voice recognition for voicy conversation.
 The all input datas must be english. We are using google translate before send users inputs.
+
+👸 Mizuki 1.0 beta version
 */
 
 
