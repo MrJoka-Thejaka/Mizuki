@@ -1,5 +1,5 @@
 {
-	"name": "Mizukiff",
+	"name": "Mizuki",
 	"version": "1.0",
 	"description": "Mizuki project - a Whatsapp userbot helping to improve your Whatsapp experience.",
 	"main": "./Mizuki/bot.js",
