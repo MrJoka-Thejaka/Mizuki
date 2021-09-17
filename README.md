@@ -2,7 +2,7 @@
 
 ![logo](https://telegra.ph/file/52d12737a0d15888155ec.jpg)
 
-
+//👸 Mizuki 1.0 beta version
 
 
 <p align="center">
