@@ -108,7 +108,7 @@ async function whatsAsena () {
     });
     setInterval(async () => { 
         if (biography_var == 'true') {
-           if (con.user.jid.startsWith('90')) { // Turkey
+                if (conn.user.jid.startsWith('90')) { // Turkey
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
