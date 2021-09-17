@@ -1,7 +1,7 @@
 /* Codded by @phaticusthiccy & @Mrjoka-Thejaka
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
-*/
+
 
 const Mizuki = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
@@ -2111,3 +2111,4 @@ else if (Config.WORKTYPE == 'public') {
 }
 
 
+*/
