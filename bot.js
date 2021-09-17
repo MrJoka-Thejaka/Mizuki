@@ -3,7 +3,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Mizuki - Mr.joka
+👸 Mizuki 1.0 beta version  
 */
 
 const fs = require("fs");
