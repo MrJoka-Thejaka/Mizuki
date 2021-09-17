@@ -496,7 +496,7 @@
       "M_AUT": "Music Author:"
     },
     "lyrics": {
-      "LY_DESC": "ගීතයේ lyrics සොයා අප්ලෝඩ් කරයි.",
+      "LY_DESC": "ගීතයේ lyrics සොයා අප්ලෝඩ් කරයි.",    //Mizuki සෑදීමට මාව inspire කල Mrs.shavi හෙවත් ලකියාට පිං පිණිස
       "NEED": "```You Must Write Any Song!```",
       "SLY": "```Lyrics```:",
       "AUT": "```Song Owner```:",
