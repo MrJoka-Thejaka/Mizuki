@@ -5,7 +5,7 @@
 	"keywords": ["whatsapp", "userbot", "Mizuki", "miuzki", "bot", "api", "ai"],
 	"repository": "https://github.com/MrJoka-Thejaka/Mizuki",
 	"website": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo",
-	"success_url": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo",
+	"success_url": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo",         //👸 Mizuki 1.0 beta version
 	"stack": "container",
 	"env": {
 		"MIZUKI_SESSION": {
