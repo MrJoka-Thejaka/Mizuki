@@ -26,7 +26,7 @@ if (Config.WORKTYPE == 'private') {
         await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG }); });
         
     }
-    else if (Config.ALIVE == 'LOGO') {
+    if (Config.ALIVE == 'logo') {
         var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption:  Config.ALIVEMSG})
         }
@@ -41,7 +41,7 @@ if (Config.WORKTYPE == 'public') {
         await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG }); });
         
     }
-    else if (Config.ALIVE == 'LOGO') {
+    if (Config.ALIVE == 'logo') {
         var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption:  Config.ALIVEMSG})
         }
