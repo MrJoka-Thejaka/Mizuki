@@ -496,7 +496,7 @@
       "M_AUT": "Music Author:"
     },
     "lyrics": {
-      "LY_DESC": "ගීතයේ lyrics සොයා අප්ලෝඩ් කරයි.",    //ලකිය වගේද බන් මිහානය ඉමෝජිය තෝර දුන්නට පිං පිණිස
+      "LY_DESC": "ගීතයේ lyrics සොයා අප්ලෝඩ් කරයි.",    
       "NEED": "```You Must Write Any Song!```",
       "SLY": "```Lyrics```:",
       "AUT": "```Song Owner```:",
