@@ -7,7 +7,7 @@
     "start": "supervisor -s bot.js"
   },
   "repository": {
-    "type": "git",      //👸 Mizuki 1.0 beta version
+    "type": "git",      
     "url": "git+https://github.com/MrJoka-Thejaka/Mizuki.git"
   },
   "keywords": [
