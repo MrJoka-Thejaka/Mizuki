@@ -1,5 +1,5 @@
 
-
+//👸 Mizuki 1.0 beta version
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
