@@ -1,6 +1,6 @@
 # **Mizuki** TERMS OF USAGE
 
-These terms of service ("Terms") apply to your access and use of **Mizuki.** Please read them carefully.
+These terms of service ("Terms") apply to your access and use of **Mizuki.** Please read them, carefully.
 
 
 ## Accepting these Terms
