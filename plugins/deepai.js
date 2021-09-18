@@ -205,7 +205,7 @@ if (Config.WORKTYPE == 'private') {
         });
         await message.client.sendMessage(message.jid, `*Article:*\n ${resp.output}`, MessageType.text, { quoted: message.data });
     }));
-    Asena.addCommand({pattern: 'ganstyle$', fromMe: true, deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {   
+    Mizuki.addCommand({pattern: 'ganstyle$', fromMe: true, deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {   
         if (message.reply_message === false) return await message.sendMessage('```Need Photo!```');
         var downloading = await message.client.sendMessage(message.jid,'Creating.. ♻️',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
