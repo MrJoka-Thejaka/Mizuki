@@ -78,7 +78,7 @@ if (Config.WORKTYPE == 'private') {
         `*${PHN_CREAT}* ${created_at}`
         
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg +'\n'+'```Queen Mizuki```'
+          caption: msg +'\n\n+'```Queen Mizuki```'
         })
       })
       .catch(
@@ -134,7 +134,7 @@ if (Config.WORKTYPE == 'public') {
         `*${PHN_CREAT}* ${created_at}`
         
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg +'\n'+'```Queen Mizuki```'
+          caption: msg +'\n\n+'```Queen Mizuki```'
         })
       })
       .catch(
