@@ -1,5 +1,5 @@
 /* Copyright (C) sisula welgamage.
-coded by sisula welgamge/mrjoka thejaka
+coded by sisula welgamge/Mrjoka-Thejaka
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 DEVELOPER - MR-JOKA / SISULA WELGAMAGE
