@@ -1,0 +1,37 @@
+{
+	"name": "queenmizuki",
+	"version": "1.0.0",
+	"description": "Mizuki project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+	"main": "./Mizuki/bot.js",
+	"scripts": {
+	  "start": "supervisor -s bot.js"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/MrJoka-Thejaka/Mizuki.git"
+	},
+	"keywords": [
+	  "whatsapp",
+	  "bot",
+	  "ai",
+	  "mizuki",
+	  "api",
+	  "unlimited",
+	  "asenadev",
+	  "machine learning",
+	  "automatic",
+	  "whatsapp web",
+	  "whatsapp api",
+	  "mizuki-bot"
+	],
+	"author": "thejaka",
+	"developer": "sisula/thejaka",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+	  "url": "https://github.com/MrJoka-Thejaka/Mizuki/issues"
+	},
+	"homepage": "https://github.com/MrJoka-Thejaka/Mizuki#readme",
+	"dependencies": {
+	  "queen-mizuki": "^1.0.0"
+	}
+  }
