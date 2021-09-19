@@ -6,7 +6,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 
 // Our Special func:
 function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;            //Logo එක සෑදූ මිගාරය ධනංජය මහතාට පිං පිණිස
+    return text === fault ? true : false;            
 }
 
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './Mizuki.db' : process.env.DATABASE_URL;
