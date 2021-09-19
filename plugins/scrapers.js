@@ -372,7 +372,7 @@ if (config.WORKTYPE == 'private') {
     
         var mesaj = '';
         arama.all.map((video) => {
-            mesaj += '*' + video.title + '* - ' + video.url + '\n'
+            mesaj += '📽️ *' + video.title + '* - ' + video.url + '\n'
         });
 
         await message.client.sendMessage(message.jid,mesaj,MessageType.text);
@@ -796,7 +796,7 @@ else if (config.WORKTYPE == 'public') {
     
         var mesaj = '';
         arama.all.map((video) => {
-            mesaj += '*' + video.title + '* - ' + video.url + '\n'
+            mesaj += '📽️ *' + video.title + '* - ' + video.url + '\n'
         });
 
         await message.client.sendMessage(message.jid,mesaj,MessageType.text);
