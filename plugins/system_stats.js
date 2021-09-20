@@ -22,7 +22,7 @@ if (Config.WORKTYPE == 'private') {
     Mizuki.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid, '```Hey there, I\'m alive now```\n\n__Version:__ ```' + Config.VERSION + '```\n__Public Group:__ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj* '  , MessageType.text);
+            await message.client.sendMessage(message.jid, '```Hey there, I\'m alive now```\n\n__Version:__ ```' + Config.VERSION + '```\n__Public Group:__ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj '  , MessageType.text);
         }
         else {
             const pow = '*Powered by Queen Mizuki*'
@@ -53,7 +53,7 @@ else if (Config.WORKTYPE == 'public') {
     Mizuki.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid, '```Hey there, I\'m alive now```\n\n*Version:* ```' + Config.VERSION + '```\n*Public Group:* https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj* '  , MessageType.text);
+            await message.client.sendMessage(message.jid, '```Hey there, I\'m alive now```\n\n__Version:__ ```' + Config.VERSION + '```\n__Public Group:__ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj '  , MessageType.text);
         }
         else {
             const pow = '*Powered by Queen Mizuki*'
