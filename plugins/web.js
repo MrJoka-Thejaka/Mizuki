@@ -8,7 +8,7 @@ Mizuki-Mr.joka
 
 const Mizuki = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const speedTest = require('speedtest-net'); // npm change speedtest
+const speedTest = require('@lh2020/speedtest-net'); // npm change speedtest
 const TinyURL = require('tinyurl');
 const Config = require('../config');
 
