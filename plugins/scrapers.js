@@ -420,7 +420,7 @@ if (config.WORKTYPE == 'private') {
 
         var buffer = await axios.get(cov, {responseType: 'arraybuffer'});
 
-        await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*${Slang.ARAT}* ` + '```' + `${match[1]}` + '```' + `\n*${Slang.BUL}* ` + '```' + tit + '```' + `\n*${Slang.AUT}* ` + '```' + son + '```' + `\n*${Slang.SLY}*\n\n` + aut });
+        await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*_${Slang.ARAT}_* ` + '```' + `${match[1]}` + '```' + `\n*_${Slang.BUL}_* ` + '```' + tit + '```' + `\n*_${Slang.AUT}_* ` + '```' + son + '```' + `\n*_${Slang.SLY}_*\n\n` + aut });
 
     }));    
 }
