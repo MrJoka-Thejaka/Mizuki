@@ -20,7 +20,7 @@ if (CON.LANG == 'SI') ADMİN_USER = '*Admin Count:*', USER_USER = '*Member Count
 if (CON.LANG == 'EN') ADMİN_USER = '*Admin Count:*', USER_USER = '*Member Count:*', TR_USER = '*Turkish Member Count:*', Hİ_USER = '*Indian Member Count:*', AZ_USER = '*Azerbayjan Member Count:*', SRİ_USER = '*Sri Lanka Member Count:*', RU_USER = '*Russian Member Count:*', USA_USER = '*USA Member Count:*', OTHER = '*Other Member Count:*'
 
 if (CON.WORKTYPE == 'private') {
-    Mizuki.addCommand({ pattern: 'whois$', fromMe: true, desc: Lang.PL_DESC }, async (message, match) => {
+    Mizuki.addCommand({ pattern: 'info$', fromMe: true, desc: Lang.PL_DESC }, async (message, match) => {
         if (message.jid.includes('-')) {
             var json = await message.client.groupMetadataMinimal(message.jid) 
             var code = await message.client.groupInviteCode(message.jid)
@@ -62,8 +62,8 @@ if (CON.WORKTYPE == 'private') {
             var ruus = ' ' + ru_user.length + '\n'
             var usaus = ' ' + usa_user.length + '\n'
             var oth = user_count - trus - hius - azus - srius - ruus - usaus
-            const user_count_msg = ADMİN_USER + admin_count + USER_USER + user_count + TR_USER + trus + Hİ_USER + hius + AZ_USER + azus + SRİ_USER + srius + RU_USER + ruus + USA_USER + usaus + OTHER + ' ' + oth + '\n'
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + user_count_msg + Lang.DES + `\n\n${nwjson.desc}`
+            const user_count_msg = ADMİN_USER + admin_count + USER_USER + user_count + TR_USER + trus + Hİ_USER + hius + AZ_USER + azus + SRİ_USER + srius + RU_USER + ruus + USA_USER + usaus + OTHER + ' ' + oth + '\n\n'
+            const msg = `*Grup ID:* ${json.id} \n\n` + Lang.SUB + `${nwjson.subject} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + user_count_msg + Lang.DES + `\n\n${nwjson.desc}`
             var ppUrl = await message.client.getProfilePicture(message.jid) 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
             await message.sendMessage(
@@ -87,7 +87,7 @@ if (CON.WORKTYPE == 'private') {
     });
 }
 else if (CON.WORKTYPE == 'public') {
-    Mizuki.addCommand({ pattern: 'whois$', fromMe: false, desc: Lang.PL_DESC }, async (message, match) => { 
+    Mizuki.addCommand({ pattern: 'info$', fromMe: false, desc: Lang.PL_DESC }, async (message, match) => { 
         if (message.jid.includes('-')) {
             var json = await message.client.groupMetadataMinimal(message.jid) 
             var code = await message.client.groupInviteCode(message.jid)
@@ -129,8 +129,8 @@ else if (CON.WORKTYPE == 'public') {
             var ruus = ' ' + ru_user.length + '\n'
             var usaus = ' ' + usa_user.length + '\n'
             var oth = user_count - trus - hius - azus - srius - ruus - usaus
-            const user_count_msg = ADMİN_USER + admin_count + USER_USER + user_count + TR_USER + trus + Hİ_USER + hius + AZ_USER + azus + SRİ_USER + srius + RU_USER + ruus + USA_USER + usaus + OTHER + ' ' + oth + '\n'
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + user_count_msg + Lang.DES + `\n\n${nwjson.desc}`
+            const user_count_msg = ADMİN_USER + admin_count + USER_USER + user_count + TR_USER + trus + Hİ_USER + hius + AZ_USER + azus + SRİ_USER + srius + RU_USER + ruus + USA_USER + usaus + OTHER + ' ' + oth + '\n\n'
+            const msg = `*Grup ID:* ${json.id} \n\n` + Lang.SUB + `${nwjson.subject} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + user_count_msg + Lang.DES + `\n\n${nwjson.desc}`
             var ppUrl = await message.client.getProfilePicture(message.jid) 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
             await message.sendMessage(
