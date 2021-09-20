@@ -170,8 +170,8 @@ Mizuki.addCommand({pattern: 'textdevil ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/devil.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/devil.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/devil.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/devil.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -189,8 +189,8 @@ Mizuki.addCommand({pattern: 'textbear ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/bear.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/bear.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/bear.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/bear.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -217,8 +217,8 @@ Mizuki.addCommand({pattern: 'textwolf ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/wolf.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/wolf.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/wolf.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/wolf.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -236,8 +236,8 @@ Mizuki.addCommand({pattern: 'textneon ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/neon.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/neon.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/neon.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/neon.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -255,8 +255,8 @@ Mizuki.addCommand({pattern: 'text2neon ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/neon2.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/neon2.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/neon2.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/neon2.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -274,8 +274,8 @@ Mizuki.addCommand({pattern: 'textlight ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/li.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/li.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/li.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/li.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -293,8 +293,8 @@ Mizuki.addCommand({pattern: 'textjoker ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/joker.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/joker.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/joker.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/joker.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -321,8 +321,8 @@ Mizuki.addCommand({pattern: 'textninja ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/ninja.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/ninja.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/ninja.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/ninja.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -340,8 +340,8 @@ Mizuki.addCommand({pattern: 'textglitter ?(.*)', fromMe: wk, dontAddCommandList:
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/tt.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/tt.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/tt.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/tt.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -359,8 +359,8 @@ Mizuki.addCommand({pattern: 'textbokeh ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/bkh.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/bkh.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/bkh.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/bkh.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -387,8 +387,8 @@ Mizuki.addCommand({pattern: 'textmarvel ?(.*)', fromMe: wk, dontAddCommandList: 
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/marvel.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/marvel.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/marvel.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/marvel.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -415,8 +415,8 @@ Mizuki.addCommand({pattern: 'text2marvel ?(.*)', fromMe: wk, dontAddCommandList:
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/mar2.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/mar2.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/mar2.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/mar2.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -443,8 +443,8 @@ Mizuki.addCommand({pattern: 'textavengers ?(.*)', fromMe: wk, dontAddCommandList
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/aven.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/aven.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/aven.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/aven.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -471,8 +471,8 @@ Mizuki.addCommand({pattern: 'textglitch ?(.*)', fromMe: wk, dontAddCommandList: 
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/tt2.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/tt2.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/tt2.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/tt2.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -499,8 +499,8 @@ Mizuki.addCommand({pattern: 'textgraf ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/ttgra.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/ttgra.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/ttgra.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/ttgra.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -527,8 +527,8 @@ Mizuki.addCommand({pattern: 'text2graf ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/t2gra.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/t2gra.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/t2gra.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/t2gra.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -555,8 +555,8 @@ Mizuki.addCommand({pattern: 'textlion ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/lion.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/lion.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/lion.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/lion.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -574,8 +574,8 @@ Mizuki.addCommand({pattern: 'text3neon ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/neon3.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/neon3.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/neon3.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/neon3.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -593,8 +593,8 @@ Mizuki.addCommand({pattern: 'textice ?(.*)', fromMe: wk, dontAddCommandList: tru
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/ice.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/ice.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/ice.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/ice.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -621,8 +621,8 @@ Mizuki.addCommand({pattern: 'textspace ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/space.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/space.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/space.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/space.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -640,8 +640,8 @@ Mizuki.addCommand({pattern: 'textsmoke ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/smoke.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/smoke.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/smoke.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/smoke.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -655,8 +655,8 @@ Mizuki.addCommand({pattern: 'textglow ?(.*)', fromMe: wk, dontAddCommandList: tr
         });
     };
     var uri = encodeURI(match[1])
-    await download(`https://api.xteam.xyz/photooxy/neonlight?text=${uri}&APIKEY=da5fb2b73ae3e451`, '/root/Mizuki/glowttp.jpg', async() => {
-        await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/glowttp.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+    await download(`https://api.xteam.xyz/photooxy/neonlight?text=${uri}&APIKEY=da5fb2b73ae3e451`, '/root/WhatsAsenaDuplicated/glowttp.jpg', async() => {
+        await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/glowttp.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
     })
 }));
 Mizuki.addCommand({pattern: 'textfire ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
@@ -670,8 +670,8 @@ Mizuki.addCommand({pattern: 'textfire ?(.*)', fromMe: wk, dontAddCommandList: tr
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/tfire.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/tfire.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/tfire.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/tfire.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -689,8 +689,8 @@ Mizuki.addCommand({pattern: 'textharry ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/hp.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/hp.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/hp.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/hp.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -708,8 +708,8 @@ Mizuki.addCommand({pattern: 'text4neon ?(.*)', fromMe: wk, dontAddCommandList: t
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/t4n.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/t4n.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/t4n.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/t4n.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -727,8 +727,8 @@ Mizuki.addCommand({pattern: 'textcemetery ?(.*)', fromMe: wk, dontAddCommandList
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/cmth.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/cmth.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/cmth.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/cmth.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
@@ -746,8 +746,8 @@ Mizuki.addCommand({pattern: 'textcup ?(.*)', fromMe: wk, dontAddCommandList: tru
                   });
               };
 
-              await download(`${data}`, '/root/Mizuki/cup.jpg', async() => {
-                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/Mizuki/cup.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/cup.jpg', async() => {
+                  await message.client.sendMessage(message.jid, fs.readFileSync('/root/WhatsAsenaDuplicated/cup.jpg'), MessageType.image, { caption: '*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪᴢᴜᴋɪ*' })
               })
           } catch(err) { 
               console.log(err)
