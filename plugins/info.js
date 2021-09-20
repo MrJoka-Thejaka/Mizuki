@@ -1,3 +1,5 @@
+
+/*
 const Mizuki = require('../events');
 const { MessageType, Mimetype, GroupSettingChange, MessageOptions } = require('@adiwajshing/baileys');
 const Axios = require('axios');
@@ -165,3 +167,5 @@ else if (CON.WORKTYPE == 'public') {
         }
     });
 }
+
+*/
