@@ -45,7 +45,7 @@
         "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
         "UNMUTED": "```The group chat has unmuted!```",
         "INVITE_DESC": "Provides the group's invitation link.",
-        "INVITE": "```🤹‍♀️ Invitation link: ```"
+        "INVITE": "```Invitation link: ```"
       },
         "locate": {
             "L_DESC": "It send your location.",
@@ -76,7 +76,7 @@
         },
       "heroku": {
         "RESTART_DESC": "Restart Mizuki",
-        "RESTART_MSG": "```Restarting 🤹‍♀️...```",
+        "RESTART_MSG": "```Restarting  🔄...```",
         "SHUTDOWN_DESC": "Shutdown Mizuki(This turns off the Resources Switch on Heroku!)",
         "SHUTDOWN_MSG": "```Shutting down ⛔```",
         "DYNO_DESC": "Check heroku dyno usage",
@@ -505,7 +505,7 @@
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
-            "NOT": "```Sorry I Could Not Find A Country Like This! Please Enter Applicable Country Codes!```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
+            "NOT": "```Sorry I Could Not Find A Country Like This! Please Enter Applicable Country Codes!```\n\n```Country Codes:``` *.covid sri lanka || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
         }
     }
 }
