@@ -32,6 +32,6 @@
 	},
 	"homepage": "https://github.com/MrJoka-Thejaka/Mizuki#readme",
 	"dependencies": {
-	  "queen-mizuki": "^1.0.3"
+	  "queen-mizuki": "^1.0.4"
 	}
   }
