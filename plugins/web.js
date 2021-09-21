@@ -28,8 +28,8 @@ Mizuki.addCommand({pattern: 'speedtest', fromMe: true, desc: Lang.SPEEDTEST_DESC
     await message.client.sendMessage(
       message.jid,Lang.SPEEDTEST_RESULT + '\n\n' +     
     '*Ping:* ```' + result.ping + 'ms```\n' +
-    '*' + Lang.UPLOAD + ':* ```' + speedText(result.uploadSpeed) + '```\n' +
-    '*' + Lang.DOWNLOAD + ':* ```' + speedText(result.downloadSpeed) + '```\n',MessageType.text
+    '*' + Lang.UPLOAD + ':* ```' + result.uploadSpeed + '```\n' +
+    '*' + Lang.DOWNLOAD + ':* ```' + result.downloadSpeed + '```\n',MessageType.text
     );
     await msg.delete();
 })}));
