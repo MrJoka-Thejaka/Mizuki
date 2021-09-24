@@ -28,7 +28,7 @@ if (Config.LANG == 'EN') desc_msg = 'Shows textmaker tools with unlimited access
 if (os.userInfo().homedir !== clh.pay) return;
 let wk = Config.WORKTYPE == 'public' ? false : true
 
-Mizuki.addCommand({pattern: '.mlogo$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
+Mizuki.addCommand({pattern: 'mlogo$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
     var t1 = ''
     var t2 = ''
     var t3 = ''
