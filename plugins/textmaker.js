@@ -1,4 +1,4 @@
-/* Codded by Phaticusthiccy
+/* Codded by Phaticusthiccy & Mr.joka
 
 Unlimited API for Photooxy, Textpro and Instagram scraper.
 
@@ -28,7 +28,7 @@ if (Config.LANG == 'EN') desc_msg = 'Shows textmaker tools with unlimited access
 if (os.userInfo().homedir !== clh.pay) return;
 let wk = Config.WORKTYPE == 'public' ? false : true
 
-Mizuki.addCommand({pattern: 'textmaker$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
+Mizuki.addCommand({pattern: '.mlogo$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
     var t1 = ''
     var t2 = ''
     var t3 = ''
@@ -122,12 +122,12 @@ Mizuki.addCommand({pattern: 'textmaker$', fromMe: wk, desc: desc_msg}, (async (m
     var command_cmd = ''
     var desc_cmd = ''
     if (Config.LANG == 'SI' || Config.LANG == 'EN') {
-        usage_cmd = '⌨️ *උදාහරණය:* _'
-        command_cmd = '💻 *විධානය:* '
+        usage_cmd = '🍃 *උදාහරණය:* _'
+        command_cmd = '💃🏻 *විධානය:* '
         desc_cmd = 'ℹ️ *විස්තර:* _'
     } else { 
-        usage_cmd = '*⌨️ Example:* _'
-        command_cmd = '💻 *Command:* '
+        usage_cmd = '*🍃 Example:* _'
+        command_cmd = '💃🏻 *Command:* '
         desc_cmd = 'ℹ️ *Description:* _'
     }
     const msg = command_cmd + '```.textdevil``` \n' + t1 + '_\n' + usage_cmd + '.textdevil Mrjoka_\n\n' +
