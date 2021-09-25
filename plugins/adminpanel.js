@@ -9,3 +9,5 @@ Mizuki.addCommand({pattern: 'admin$', fromMe: wk, desc: AS_DESC}, (async (messag
   
    await message.client.sendMessage(message.jid, msg, MessageType.extendedText, { contextInfo: { mentionedJid: jids }, previewType: 0 })
     }
+                                                                   
+        }                                                           
