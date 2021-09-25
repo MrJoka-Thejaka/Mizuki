@@ -1,3 +1,4 @@
+/*
 const Mizuki = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const Config = require('../config');
@@ -8,6 +9,8 @@ const msg = "🛠 Command: .vtalk\n💬 Description: Mizuki සිය voice ස�
 Mizuki.addCommand({pattern: 'admin$', fromMe: wk, desc: AS_DESC}, (async (message, match) => {
   
    await message.client.sendMessage(message.jid, msg, MessageType.extendedText, { contextInfo: { mentionedJid: jids }, previewType: 0 })
-    };
+ 
+    }
                                                                    
+                                */                                   
                                                                    
