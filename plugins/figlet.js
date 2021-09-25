@@ -1,3 +1,5 @@
+
+/*
 const Mizuki = require('../events');
 const figlet = require('figlet');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -43,3 +45,4 @@ if (Config.WORKTYPE == 'public') {
             }
          )
        };
+*/
