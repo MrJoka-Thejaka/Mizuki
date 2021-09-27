@@ -1,4 +1,190 @@
 /*Copyright (C) 2021 Mr.joka*/
 
 
-const Mizuki=require("../events"),{MessageType:MessageType}=require("@adiwajshing/baileys"),Config=require("../config"),AS_DESC="ගෲප් එකේ ඇති වන ඕනෑම ආකාරයක WhatsApp SPAM පිළිබඳ හදිසි අවස්ථාවකදී මෙම විධානය භාවිත කර හානිය අවම කරගත හැක.",GUARD="»»»»»»»»»»»»»»»»»»»»»»»»»»»»»\n*🚨Queen Mizuki Virus Shield🛡️*\n\n       🛑🛑🛑🛑\n       \n\n\n\n```❤️‍🩹 Do Not Go Up ❤️‍🩹```\n\n*❤️‍🩹 ඉහලට යෑමෙන් වලිකින්න. ❤️‍🩹*\n            *Don't go up !*\n    _🚨WARNING🚨_\n    \n    \n\n```❤️‍🩹 Do Not Go Up ❤️‍🩹```\n\n*❤️‍🩹 ඉහලට යෑමෙන් වලිකින්න. ❤️‍🩹*\n            *Don't go up !*\n    ┏━━━━━━━━━━━━┓\n _🚨WARNING🚨_\n┗━━━━━━━━━━━━┛    \n\n\n\n```❤️‍🩹 Do Not Go Up ❤️‍🩹```\n\n*❤️‍🩹 ඉහලට යෑමෙන් වලිකින්න. ❤️‍🩹*\n\n           *Don't go up !*\n    ┏━━━━━━━━━━━━┓\n _🚨WARNING🚨_\n┗━━━━━━━━━━━━┛\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n``` © ɪ ᴀᴍ ǫᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ ```\n»»»»»»»»»»»»»»»»»»»»»»»»»»»»»",UNDERA="EMERGENCY!!🚨  |   🛑 GROUP UNDER ATTACK 🛑  |",MUTE=".mute 1h",MUTED=".mute 1d",TAGAD="📛ADMIN TAKE SOME ACTION!! 📛",SCRI="Running Shield....001",ADMIN=".wakeup EMERGENCY!!🚨  |   🛑 GROUP UNDER ATTACK 🛑  |",Language=require("../language"),Lang=Language.getString("tagall");Mizuki.addCommand({pattern:"wakeup ?(.*)",fromMe:!0,deleteCommand:!1,desc:Lang.TAGALL_DESC,dontAddCommandList:!0},async(n,e)=>{if(""!==e[1]){grup=await n.client.groupMetadata(n.jid);var s=[];mesaj="",grup.participants.map(async n=>{n.isAdmin&&(mesaj+="@"+n.id.split("@")[0]+" ",s.push(n.id.replace("c.us","s.whatsapp.net")))}),await n.client.sendMessage(n.jid,`${e[1]}`+"\n"+mesaj,MessageType.extendedText,{contextInfo:{mentionedJid:s},previewType:0})}else if(""==e[1]){grup=await n.client.groupMetadata(n.jid);s=[];mesaj="",grup.participants.map(async n=>{mesaj+="▫️ @"+n.id.split("@")[0]+"\n",s.push(n.id.replace("c.us","s.whatsapp.net"))}),await n.client.sendMessage(n.jid,mesaj,MessageType.extendedText,{contextInfo:{mentionedJid:s},previewType:0})}}),Mizuki.addCommand({pattern:"activate",fromMe:!0,deleteCommand:!1,desc:AS_DESC},async(n,e)=>{await n.client.sendMessage(n.jid,"⛨ Safe Mode Activating ⛨",MessageType.text),await n.client.sendMessage(n.jid,UNDERA,MessageType.text),await n.client.sendMessage(n.jid,MUTE,MessageType.text),await n.client.sendMessage(n.jid,SCRI,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,TAGAD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,ADMIN,MessageType.text)}),Mizuki.addCommand({pattern:"off",fromMe:!0,delownsewcmd:!1,desc:AS_DESC},async(n,e)=>{await n.client.sendMessage(n.jid,"⛨ Group Temp Mute Activating ⛨",MessageType.text),await n.client.sendMessage(n.jid,UNDERA,MessageType.text),await n.client.sendMessage(n.jid,MUTED,MessageType.text),await n.client.sendMessage(n.jid,SCRI,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,TAGAD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,GUARD,MessageType.text),await n.client.sendMessage(n.jid,ADMIN,MessageType.text)});
+const Mizuki = require('../events');
+const { MessageType } = require('@adiwajshing/baileys');
+const Config = require('../config');
+const AS_DESC = "ගෲප් එකේ ඇති වන ඕනෑම ආකාරයක WhatsApp SPAM පිළිබඳ හදිසි අවස්ථාවකදී මෙම විධානය භාවිත කර හානිය අවම කරගත හැක."
+const GUARD = "»»»»»»»»»»»»»»»»»»»»»»»»»»»»»\n*🚨Queen Mizuki Virus Shield🛡️*\n\n       🛑🛑🛑🛑\n       \n\n\n\n```❤️‍🩹 Do Not Go Up ❤️‍🩹```\n\n*❤️‍🩹 ඉහලට යෑමෙන් වලිකින්න. ❤️‍🩹*\n            *Don't go up !*\n    _🚨WARNING🚨_\n    \n    \n\n```❤️‍🩹 Do Not Go Up ❤️‍🩹```\n\n*❤️‍🩹 ඉහලට යෑමෙන් වලිකින්න. ❤️‍🩹*\n            *Don't go up !*\n    ┏━━━━━━━━━━━━┓\n _🚨WARNING🚨_\n┗━━━━━━━━━━━━┛    \n\n\n\n```❤️‍🩹 Do Not Go Up ❤️‍🩹```\n\n*❤️‍🩹 ඉහලට යෑමෙන් වලිකින්න. ❤️‍🩹*\n\n           *Don't go up !*\n    ┏━━━━━━━━━━━━┓\n _🚨WARNING🚨_\n┗━━━━━━━━━━━━┛\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n``` © ɪ ᴀᴍ ǫᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ ```\n»»»»»»»»»»»»»»»»»»»»»»»»»»»»»"
+const UNDERA = "EMERGENCY!!🚨  |   🛑 GROUP UNDER ATTACK 🛑  |"
+const MUTE = ".mute 1h"
+const MUTED = ".mute 1d"
+const TAGAD = "📛ADMIN TAKE SOME ACTION!! 📛"
+const SCRI = "Running Shield....001"
+const ADMIN = ".wakeup EMERGENCY!!🚨  |   🛑 GROUP UNDER ATTACK 🛑  |"
+const Language = require('../language');
+const Lang = Language.getString('tagall');
+
+
+
+Mizuki.addCommand({ pattern: 'wakeup ?(.*)', fromMe: true, deleteCommand: false, desc: Lang.TAGALL_DESC, dontAddCommandList: true }, (async (message, match) => {
+
+    if (match[1] !== '') {
+        grup = await message.client.groupMetadata(message.jid);
+        var jids = [];
+        mesaj = '';
+        grup['participants'].map(async (uye) => {
+            if (uye.isAdmin) {
+                mesaj += '@' + uye.id.split('@')[0] + ' ';
+                jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
+            }
+        });
+        await message.client.sendMessage(message.jid, `${match[1]}` + '\n' + mesaj, MessageType.extendedText, { contextInfo: { mentionedJid: jids }, previewType: 0 })
+    }
+    else if (match[1] == '') {
+        grup = await message.client.groupMetadata(message.jid);
+        var jids = [];
+        mesaj = '';
+        grup['participants'].map(
+            async (uye) => {
+                mesaj += '▫️ @' + uye.id.split('@')[0] + '\n';
+                jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
+            }
+        );
+        await message.client.sendMessage(message.jid, mesaj, MessageType.extendedText, { contextInfo: { mentionedJid: jids }, previewType: 0 })
+    }
+}));
+
+
+
+Mizuki.addCommand({ pattern: 'activate', fromMe: true, deleteCommand: false, desc: AS_DESC, }, (async (message, match) => {
+
+    const msg = "⛨ Safe Mode Activating ⛨"
+
+    await message.client.sendMessage(
+        message.jid, msg, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, UNDERA, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, MUTE, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, SCRI, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, TAGAD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, ADMIN, MessageType.text);
+
+}));
+
+
+Mizuki.addCommand({ pattern: 'off', fromMe: true, delownsewcmd: false, desc: AS_DESC, }, (async (message, match) => {
+
+    const msg = "⛨ Group Temp Mute Activating ⛨"
+
+    await message.client.sendMessage(
+        message.jid, msg, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, UNDERA, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, MUTED, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, SCRI, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, TAGAD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, GUARD, MessageType.text);
+
+    await message.client.sendMessage(
+        message.jid, ADMIN, MessageType.text);
+
+}));
