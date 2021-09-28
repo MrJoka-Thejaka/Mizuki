@@ -120,7 +120,7 @@
 			"value": "default"
 		},
 		"WORK_TYPE": {
-			"description": "බොටා වැඩ කරන්න ඕනෙ උබට විතරක්නම් private කියලම තියපන්.. හැමෝටම වැඩ කරන්න ඕන්නම් public කියල දියන්",
+			"description": "බොටා වැඩ කරන්න ඕනෙ හැමෝටමනම් public කියලම තියපන්.. උබට විතරක් වැඩ කරන්න ඕන්නම් private කියල දියන්.",
 			"required": true,
 			"value": "public"
 		},
