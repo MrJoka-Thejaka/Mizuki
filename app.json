@@ -122,7 +122,7 @@
 		"WORK_TYPE": {
 			"description": "බොටා වැඩ කරන්න ඕනෙ උබට විතරක්නම් private කියලම තියපන්.. හැමෝටම වැඩ කරන්න ඕන්නම් public කියල දියන්",
 			"required": true,
-			"value": "private"
+			"value": "public"
 		},
 		"HEROKU_APP_NAME": {
 			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
