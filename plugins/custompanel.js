@@ -3,7 +3,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
 Mizuki - Mr.joka
-
+*/
 
 const Mizuki = require('../events');
 const Config = require('../config');
@@ -14,7 +14,7 @@ const Lang = Language.getString('_mizuki');
 
 if (Config.WORKTYPE == 'private') {
 
-    Mizuki.addCommand({pattern: Config.CUS_PANEL '?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Mizuki.addCommand({pattern: Config.CUS_PANEL ?(.*), fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -122,7 +122,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Mizuki.addCommand({pattern: Config.CUS_PANEL '?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Mizuki.addCommand({pattern: Config.CUS_PANEL ?(.*), fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -228,4 +228,4 @@ else if (Config.WORKTYPE == 'public') {
         }
     }));
 }
-*/
+
