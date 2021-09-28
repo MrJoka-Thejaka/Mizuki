@@ -74,7 +74,20 @@
 		"CUS_PANEL": {
 			"description": "එය ඔබගේ menu එක ලබා ගැනීමට ඔබට අවශ්‍ය කමාන්ඩ් එකක් ඇඩ් කරයි.ඔබ කැමති command එකක් යොදන්න. Ex:- mizuki",
 			"required": false,
-			"value": "mizuki"		
+			"value": "mizuki"	
+			
+		},
+		"BYE_GIF": {
+			"description": "එය ඔබගේ Bye GIF එක වෙනස් කරයි...ඔබ කැමති වීඩියෝවක direct link මෙහි දමන්න.",
+			"required": false,
+			"value": "https://thumbsnap.com/i/PQ7iHqwx.mp4"
+		
+		},
+		"WELCOME_GIF": {
+			"description": "එය ඔබගේ Welcome GIF එක වෙනස් කරයි...ඔබ කැමති වීඩියෝවක direct link මෙහි දමන්න.",
+			"required": false,
+			"value": "https://thumbsnap.com/i/nfQGh4Pf.mp4"
+			
 				
 		},
 		"HEROKU_API_KEY": {
