@@ -3,7 +3,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
 Mizuki - Mr.joka
-*/
+
 
 const Mizuki = require('../events');
 const Config = require('../config');
@@ -228,3 +228,4 @@ else if (Config.WORKTYPE == 'public') {
         }
     }));
 }
+*/
