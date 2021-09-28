@@ -25,6 +25,7 @@ module.exports = {
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     C_EMOJI: process.env.C_EMOJI === undefined ? '📕' : process.env.C_EMOJI,
     D_EMOJI: process.env.D_EMOJI === undefined ? '📖' : process.env.D_EMOJI,
+    CUS_PANEL: process.env.CUS_PANEL === undefined ? 'mizuki' : process.env.CUS_PANEL,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
