@@ -57,7 +57,7 @@ if (Config.WORKTYPE == 'private') {
               merek_batre,
               detail,
               
-        } = response.data    
+        } = response.data.result    
 
  
         const picBuffer = await axios.get(thumb, {responseType: 'arraybuffer'})
@@ -121,8 +121,7 @@ if (Config.WORKTYPE == 'public') {
               merek_batre,
               detail,
               
-        } = response.data    
-
+        } = response.data.result
  
         const picBuffer = await axios.get(thumb, {responseType: 'arraybuffer'})
 
