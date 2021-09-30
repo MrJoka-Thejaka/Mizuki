@@ -82,7 +82,7 @@ if (Config.WORKTYPE == 'private') {
         })
       })
       .catch(
-        async (err) => await message.sendMessage(errorMessage(NOT_FOUND + userName)),
+        async (err) => await message.sendMessage(errorMessage(NOT_FOUND + pname)),
       )
   },
 
@@ -145,7 +145,7 @@ if (Config.WORKTYPE == 'public') {
         })
       })
       .catch(
-        async (err) => await message.sendMessage(errorMessage(NOT_FOUND + userName)),
+        async (err) => await message.sendMessage(errorMessage(NOT_FOUND + pname)),
       )
   },
 
