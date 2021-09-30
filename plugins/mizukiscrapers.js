@@ -324,11 +324,11 @@ if (config.WORKTYPE == 'private') {
                         description: arama[0].description
                     });
                 writer.addTag();
-                const msg = '⇢ ' + ':' + title + '\n\n' + '⇢ :Type : MP3' + '\n\n' +'```Queen Mizuki```'
+                const msg = '⇢ ' + 'Song :-' + title + '\n\n' + '⇢ Type :- MP3' + '\n\n' +'*Download your song below 👇🏻* © ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
                 var iavatar = await axios.get(thumbnail,{responseType: 'arraybuffer'});
-                await message.sendMessage(Buffer.from(iavatar.data), MessageType.image, {mimetype: Mimetype.jpg, caption: msg}); 
                 var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text, {quoted: message.data});
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text, {quoted: message.data});
+                await message.sendMessage(Buffer.from(iavatar.data), MessageType.image, {mimetype: Mimetype.jpg, caption: msg}); 
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false});
                 
             });
@@ -546,11 +546,11 @@ else if (config.WORKTYPE == 'public') {
                         description: arama[0].description
                     });
                 writer.addTag();
-                const msg = '⇢ ' + ':' + title + '\n\n' + '⇢ :Type : MP3' + '\n\n' +'```Queen Mizuki```'
+                const msg = '⇢ ' + 'Song :-' + title + '\n\n' + '⇢ Type :- MP3' + '\n\n' +'*Download your song below 👇🏻* © ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
                 var iavatar = await axios.get(thumbnail,{responseType: 'arraybuffer'});
-                await message.sendMessage(Buffer.from(iavatar.data), MessageType.image, {mimetype: Mimetype.jpg, caption: msg}); 
                 var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text, {quoted: message.data});
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text, {quoted: message.data});
+                await message.sendMessage(Buffer.from(iavatar.data), MessageType.image, {mimetype: Mimetype.jpg, caption: msg}); 
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false});
                 
             });
