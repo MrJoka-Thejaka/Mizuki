@@ -374,10 +374,12 @@ if (config.WORKTYPE == 'private') {
     
         var mesaj = '';
         arama.all.map((video) => {
-            mesaj += 'Queen Mizuki yt search engine' + '\n\n' + '📽️ *' + video.title + '*🔗 ' + video.url + '\n\n'
-        });
+            mesaj += '📽️ *' + video.title + '*🔗 ' + video.url + '\n\n'
+        const search = 'Queen Mizuki yt search engine' + '\n\n'    
+        const fumsg = mesaj + search    
+        
 
-        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,fumsg,MessageType.text, {quoted: message.data}); 
         await reply.delete();
     }));
 
@@ -596,10 +598,12 @@ else if (config.WORKTYPE == 'public') {
     
         var mesaj = '';
         arama.all.map((video) => {
-            mesaj += 'Queen Mizuki yt search engine' + '\n\n' + '📽️ *' + video.title + '*🔗 ' + video.url + '\n\n'
-        });
+            mesaj += '📽️ *' + video.title + '*🔗 ' + video.url + '\n\n'
+        const search = 'Queen Mizuki yt search engine' + '\n\n'    
+        const fumsg = mesaj + search    
+        
 
-        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,fumsg,MessageType.text, {quoted: message.data}); 
         await reply.delete();
     }));
 
