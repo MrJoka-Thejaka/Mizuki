@@ -375,11 +375,10 @@ if (config.WORKTYPE == 'private') {
         var mesaj = '';
         arama.all.map((video) => {
             mesaj += '📽️ *' + video.title + '*🔗 ' + video.url + '\n\n'
-        const search = 'Queen Mizuki yt search engine' + '\n\n'    
-        const fumsg = mesaj + search    
+        });
         
 
-        await message.client.sendMessage(message.jid,fumsg,MessageType.text);
+        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -596,14 +595,13 @@ else if (config.WORKTYPE == 'public') {
             return await message.client.sendMessage(message.jid,Lang.NOT_FOUND,MessageType.text);
         }
     
-        var mesaj = '';
+         var mesaj = '';
         arama.all.map((video) => {
             mesaj += '📽️ *' + video.title + '*🔗 ' + video.url + '\n\n'
-        const search = 'Queen Mizuki yt search engine' + '\n\n'    
-        const fumsg = mesaj + search    
+        });
         
 
-        await message.client.sendMessage(message.jid,fumsg,MessageType.text);
+        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
         await reply.delete();
     }));
 
