@@ -379,7 +379,7 @@ if (config.WORKTYPE == 'private') {
         const fumsg = mesaj + search    
         
 
-        await message.client.sendMessage(message.jid,fumsg,MessageType.text, {quoted: message.data}); 
+        await message.client.sendMessage(message.jid,fumsg,MessageType.text);
         await reply.delete();
     }));
 
@@ -603,7 +603,7 @@ else if (config.WORKTYPE == 'public') {
         const fumsg = mesaj + search    
         
 
-        await message.client.sendMessage(message.jid,fumsg,MessageType.text, {quoted: message.data}); 
+        await message.client.sendMessage(message.jid,fumsg,MessageType.text);
         await reply.delete();
     }));
 
