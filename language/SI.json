@@ -46,6 +46,7 @@
       "UNMUTED": "```ගෲප් චැට් අන්මියුට් කරන ලදී !```",
       "INVITE_DESC": "ගෲප් එකේ ලින්ක් එක සපයයි.",
       "INVITE": "```Invitation link: ```"
+      "JOIN": "ඔබ දෙන ගෲප් ලින්ක් එක හරහා එම ගෲප් එකට Mizuki join වෙයි."
     },
     "locate": {
       "L_DESC": "එය ඔබගේ Location එක එවයි.",
