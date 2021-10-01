@@ -24,14 +24,14 @@ if (Config.WORKTYPE == 'private') {
             
         var aliveimg = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
 
-        await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.image, {mimetype: Mimetype.png, caption: '```Hey there, I\'m alive now```\n\n_Version:_ ```' + Config.VERSION + '```\n\n_Public Group:_ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj'})
+        await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: '```Hey there, I\'m alive now```\n\n_Version:_ ```' + Config.VERSION + '```\n\n_Public Group:_ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj'})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Powered by Queen Mizuki*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.video, {mimetype: Mimetype.gif, caption: Config.ALIVEMSG + '\n\n*Powered by Queen Mizuki*' })
      }
     }));
 
@@ -56,14 +56,14 @@ else if (Config.WORKTYPE == 'public') {
             
         var aliveimg = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
 
-         await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.image, {mimetype: Mimetype.png, caption: '```Hey there, I\'m alive now```\n\n_Version:_ ```' + Config.VERSION + '```\n\n_Public Group:_ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj'})
+         await message.client.sendMessage (message.jid, Buffer.from (aliveimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: '```Hey there, I\'m alive now```\n\n_Version:_ ```' + Config.VERSION + '```\n\n_Public Group:_ https://chat.whatsapp.com/ClI0N6kmAkh0dYrU2yOuGj'})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Powered by Queen Mizuki*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.video, {mimetype: Mimetype.gif, caption: Config.ALIVEMSG + '\n\n*Powered by Queen Mizuki*' })
      }
     }));
 
