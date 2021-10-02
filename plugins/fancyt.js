@@ -12,7 +12,7 @@ Mizuki.addCommand({ pattern: 'fancyt ?(.*)', desc: FANCY_DESC, fromMe: workt }, 
 const ntext = match[1]
 if (!ntext) return await message.sendMessage(" *Please Input Some text* ")
 
-await message.sendMessage('🤹‍♀️ *Text Converting* 🔄')
+await message.sendMessage('```Text converting...```')
 
 await axios
       .get(`https://bx-hunter.herokuapp.com/api/fancytext?text=${ntext}&apikey=Ikyy69`)
@@ -23,7 +23,7 @@ await axios
         } = response.data
 
    
-	const gent = `🎀  𝒬𝓊𝑒𝑒𝓃 𝑀𝒾𝓏𝓊𝓀𝒾 𝐹𝒶𝓃𝒸𝓎 𝒯𝑒𝓍𝓉  🎀 \n\n ${result} \n\n                 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 𝗤𝘂𝗲𝗲𝗻 𝗠𝗶𝘇𝘂𝗸𝗶`
+	const gent = `🎀 𝑸𝒖𝒆𝒆𝒏 𝑴𝒊𝒛𝒖𝒌𝒊 𝑭𝒂𝒏𝒄𝒚 𝑻𝒆𝒙𝒕 🎀\n\n ${result} \n\n 𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚞𝚜𝚒𝚗𝚐 𝚀𝚞𝚎𝚎𝚗 𝙼𝚒𝚣𝚞𝚔𝚒`
 	
 	 await message.client.sendMessage(message.jid, gent , MessageType.text, {
           quoted: message.data,
