@@ -62,8 +62,7 @@ if (Config.WORKTYPE == 'private') {
                 }
             );
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
-            );    
+                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text, { quoted: message.data });
         } else {
             var CMD_HELP = '';
             Mizuki.commands.map(
@@ -115,8 +114,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
-            );
+                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text, { quoted: message.data });
         }
     }));
 }
@@ -170,8 +168,7 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
-            );    
+                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text, { quoted: message.data });
         } else {
             var CMD_HELP = '';
             Mizuki.commands.map(
@@ -223,8 +220,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
-            );
+                message.jid,'●▬▬▬ *Mizuki Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text, { quoted: message.data });
         }
     }));
 }
