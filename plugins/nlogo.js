@@ -1,9 +1,14 @@
+/*නමස්තේ නමස්කාරම් කියල පටන් ගන්නම් 
+මේකෙ API Keys ටිකනම් උස්සන්න එපා ඈහ් ක්ක්ක් අනිත් මොම්න පම්ක ගත්තත් API ටික නම් ගන්න එපා 
+ අම්මප copyright ගහනව repo එකටම ; ගිහින් එන්නම් එහෙනම් *I am Mr.joka */
+
+
 const Mizuki = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 let workt = Config.WORKTYPE == 'public' ? false : true
-const list = '♥️ Queen Mizuki N Logo Pack ♥️\n\n|- .summer\nEx:- .summer Mizuki\n\n|- .gsug\nEx:- .gsug I am/Queen/Mizuki\n\n|- .phcmnt\nEx:- .book Mizuki\n\n_*Thanks for using Queen Mizuki*_'
+const list = '♥️ Queen Mizuki N Logo Pack ♥️\n\n|- .summer\nEx:- .summer Mizuki\n\n|- .gsug\nEx:- .gsug I am/Queen/Mizuki\n\n|- .book\nEx:- .book Mizuki\n\n_*Thanks for using Queen Mizuki*_'
 const N_DESC = 'Queen Mizuki N logo pack.'
 const NEED_WORD = 'කරුණාකර වචනයක් ඇතුළත් කරන්න.'
 
