@@ -322,14 +322,15 @@ if (config.WORKTYPE == 'private') {
                         type: 3,
                         data: fs.readFileSync(title + '.jpg'),
                         description: arama[0].description
-                    });
+                    });    // await message.client.sendMessage(message.jid, poster, MessageType.image, {
+          caption: minfo +'\n\n'+'*© ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ*',quoted: message.data});
                 writer.addTag();
-                const msg = '⇢ ' + 'Song :-' + title + '\n\n' + '⇢ Type :- MP3' + '\n\n' +'*Download your song below 👇🏻* © ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
+                 const msg = '🎼' + 'Song :-' + title + '\n\n' + '📁 Type :- MP3' + '\n\n' + '⚜️ *Download your song below 👇🏻*' + '\n\n' + '© ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
                 var iavatar = await axios.get(thumbnail,{responseType: 'arraybuffer'});
                 var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text, {quoted: message.data});
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text, {quoted: message.data});
-                await message.sendMessage(Buffer.from(iavatar.data), MessageType.image, {mimetype: Mimetype.jpg, caption: msg}); 
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false});
+                await message.client.sendMessage(Buffer.from(iavatar.data), MessageType.image, { caption: msg, quoted: message.data});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false, quoted: message.data});
                 
             });
     }));
@@ -547,12 +548,12 @@ else if (config.WORKTYPE == 'public') {
                         description: arama[0].description
                     });
                 writer.addTag();
-                const msg = '⇢ ' + 'Song :-' + title + '\n\n' + '⇢ Type :- MP3' + '\n\n' +'*Download your song below 👇🏻* © ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
+                 const msg = '🎼' + 'Song :-' + title + '\n\n' + '📁 Type :- MP3' + '\n\n' + '⚜️ *Download your song below 👇🏻*' + '\n\n' + '© ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
                 var iavatar = await axios.get(thumbnail,{responseType: 'arraybuffer'});
                 var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text, {quoted: message.data});
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text, {quoted: message.data});
-                await message.sendMessage(Buffer.from(iavatar.data), MessageType.image, {mimetype: Mimetype.jpg, caption: msg}); 
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false});
+                await message.client.sendMessage(Buffer.from(iavatar.data), MessageType.image, { caption: msg, quoted: message.data});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false, quoted: message.data});
                 
             });
     }));
