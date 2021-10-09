@@ -36,7 +36,7 @@ Mizuki.addCommand({pattern: 'gsug ?(.*)', fromMe: workt, dontAddCommandList: tru
     if (match[1].includes('/')) {
         var split = match[1].split('/');
        
-        text2 = split[2];
+        text3 = split[2];
         text2 = split[1];
         text = split[0];
 }
