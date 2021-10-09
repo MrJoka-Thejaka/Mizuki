@@ -322,8 +322,8 @@ if (config.WORKTYPE == 'private') {
                         type: 3,
                         data: fs.readFileSync(title + '.jpg'),
                         description: arama[0].description
-                    });    // await message.client.sendMessage(message.jid, poster, MessageType.image, {
-          caption: minfo +'\n\n'+'*© ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ*',quoted: message.data});
+                    });    
+          
                 writer.addTag();
                  const msg = '🎼' + 'Song :-' + title + '\n\n' + '📁 Type :- MP3' + '\n\n' + '⚜️ *Download your song below 👇🏻*' + '\n\n' + '© ɪ ᴀᴍ Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ'
                 var iavatar = await axios.get(thumbnail,{responseType: 'arraybuffer'});
