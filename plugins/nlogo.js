@@ -11,8 +11,10 @@ let workt = Config.WORKTYPE == 'public' ? false : true
 const list = '♥️ Queen Mizuki N Logo Pack ♥️\n\n|- .summer\nEx:- .summer Mizuki\n\n|- .gsug\nEx:- .gsug I am/Queen/Mizuki\n\n|- .book\nEx:- .book Mizuki\n\n_*Thanks for using Queen Mizuki*_'
 const N_DESC = 'Queen Mizuki N logo pack.'
 const NEED_WORD = 'කරුණාකර වචනයක් ඇතුළත් කරන්න.'
-const PINIMG = 'Gets an Image(Wallpaper) Related to your search\nEx :- .pinimg Spider Man'
+const PINIMG = 'Gets an Image(Wallpaper) Related to your search'
 const GIMG = 'Gets an image from google releted your search and send it'
+const PUSAGE = 'Ex :- .pinimg Spider Man'
+const GUSAGE = 'Ex :- .gimg Spider Man'
 
 Mizuki.addCommand({ pattern: 'nlogo ?(.*)', fromMe: workt, deleteCommand: false, desc: N_DESC, dontAddCommandList: false }, (async (message, match) => {
      
@@ -65,7 +67,7 @@ Mizuki.addCommand({ pattern: 'book ?(.*)', fromMe: workt,dontAddCommandList: tru
  
 }));       
 
-Mizuki.addCommand({ pattern: 'pinimg ?(.*)', fromMe: workt, usage: USAGE, desc: PINIMG }, async (message, match) => {
+Mizuki.addCommand({ pattern: 'pinimg ?(.*)', fromMe: workt, usage: PUSAGE, desc: PINIMG }, async (message, match) => {
  
   if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -77,7 +79,7 @@ Mizuki.addCommand({ pattern: 'pinimg ?(.*)', fromMe: workt, usage: USAGE, desc: 
  
 });
 
-Mizuki.addCommand({ pattern: 'gimg ?(.*)', fromMe: workt, usage: USAGE, desc: GIMG }, async (message, match) => {
+Mizuki.addCommand({ pattern: 'gimg ?(.*)', fromMe: workt, usage: GUSAGE, desc: GIMG }, async (message, match) => {
  
   if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
