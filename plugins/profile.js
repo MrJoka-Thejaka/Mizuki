@@ -41,6 +41,7 @@ Mizuki.addCommand({pattern: 'pp$', fromMe: true, desc: Lang.PP_DESC}, (async (me
     await message.client.deleteMessage(message.jid, {id: load.key.id, remoteJid: message.jid, fromMe: true})
 }));
 
+
 Mizuki.addCommand({pattern: 'block ?(.*)', fromMe: true, desc: Lang.BLOCK_DESC}, (async (message, match) => {
     if (Config.BLOCKMSG == 'default') {  
         if (message.reply_message !== false) {
