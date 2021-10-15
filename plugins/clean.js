@@ -17,3 +17,4 @@ Mizuki.addCommand({ pattern: 'clear', fromMe: true, desc: CLEAR_DESC, dontAddCom
     await message.client.modifyChat(message.jid, ChatModification.delete);
     await message.sendMessage('```Chat cleared 🚮```');
 }));
+//...
