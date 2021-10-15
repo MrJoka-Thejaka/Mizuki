@@ -2,36 +2,4 @@
 Mizuki Dev.
 ====================Profile Bio =================================//
 */
-const Mizuki = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
-
-const fs = require('fs');
-const Language = require('../language');
-const PB_DESC = "Changes Your Profile Bio"
-const PN_DESC = "Changes Your Profile Name"
-const NEED_WD = "Please Need Word !!"
-const SET_UP = "*⏫ Updating Profile Bio...*"
-const SET_NAME = "*⏫ Updating Profile Name...*"
-const SETUPED_UP = "*Successfully updated the Bio ✅*"
-const SETUPED_NAME = "*Successfully updated the Name ✅*"
-
-
-Mizuki.addCommand({pattern: 'setbio ?(.*)', fromMe: true, desc: PB_DESC, dontAddCommandList: true}, (async (message, match) => {    
-    const pname = match[1]
-
-    if (!pname) return await message.sendMessage(errorMessage(NEED_WD))
-    await message.client.sendMessage(message.jid,SET_UP,MessageType.text)
-    await message.client.setStatus(pname);
-    await message.client.sendMessage(message.jid,SETUPED_UP,MessageType.text)
-    
-}));
-
-Mizuki.addCommand({pattern: 'setname ?(.*)', fromMe: true, desc: PN_DESC, dontAddCommandList: true}, (async (message, match) => {    
-    const pname = match[1]
-
-    if (!pname) return await message.sendMessage(errorMessage(NEED_WD))
-    await message.client.sendMessage(message.jid,SET_NAME,MessageType.text);
-    await message.client.updateProfileName(pname);
-    await message.client.sendMessage(message.jid,SETUPED_NAME,MessageType.text)
-    
-}));
+const _0x581b35=_0x3fc9;(function(_0x32c6b1,_0x13771d){const _0x1d6982=_0x3fc9,_0xa5da9c=_0x32c6b1();while(!![]){try{const _0x17c030=parseInt(_0x1d6982(0x1e7))/0x1+-parseInt(_0x1d6982(0x1d8))/0x2+-parseInt(_0x1d6982(0x1df))/0x3+-parseInt(_0x1d6982(0x1e6))/0x4+parseInt(_0x1d6982(0x1d4))/0x5*(parseInt(_0x1d6982(0x1d3))/0x6)+-parseInt(_0x1d6982(0x1dd))/0x7+parseInt(_0x1d6982(0x1d9))/0x8;if(_0x17c030===_0x13771d)break;else _0xa5da9c['push'](_0xa5da9c['shift']());}catch(_0x4a6105){_0xa5da9c['push'](_0xa5da9c['shift']());}}}(_0x4ab9,0x77790));const Mizuki=require(_0x581b35(0x1e9)),{MessageType}=require(_0x581b35(0x1de)),fs=require('fs'),Language=require(_0x581b35(0x1e1)),PB_DESC=_0x581b35(0x1db),PN_DESC=_0x581b35(0x1e8),NEED_WD=_0x581b35(0x1e2),SET_UP=_0x581b35(0x1dc),SET_NAME=_0x581b35(0x1e4),SETUPED_UP=_0x581b35(0x1d6),SETUPED_NAME=_0x581b35(0x1eb);function _0x3fc9(_0x3d935c,_0x1d7537){const _0x4ab9b1=_0x4ab9();return _0x3fc9=function(_0x3fc969,_0x5dbd6e){_0x3fc969=_0x3fc969-0x1d3;let _0x3ffc18=_0x4ab9b1[_0x3fc969];return _0x3ffc18;},_0x3fc9(_0x3d935c,_0x1d7537);}Mizuki[_0x581b35(0x1da)]({'pattern':'setbio\x20?(.*)','fromMe':!![],'desc':PB_DESC,'dontAddCommandList':![]},async(_0x2ce345,_0xe5280b)=>{const _0x3a4656=_0x581b35,_0x5596e9=_0xe5280b[0x1];if(!_0x5596e9)return await _0x2ce345['sendMessage'](errorMessage(NEED_WD));await _0x2ce345[_0x3a4656(0x1e5)][_0x3a4656(0x1ea)](_0x2ce345[_0x3a4656(0x1e3)],SET_UP,MessageType[_0x3a4656(0x1d5)]),await _0x2ce345[_0x3a4656(0x1e5)][_0x3a4656(0x1e0)](_0x5596e9),await _0x2ce345[_0x3a4656(0x1e5)][_0x3a4656(0x1ea)](_0x2ce345['jid'],SETUPED_UP,MessageType[_0x3a4656(0x1d5)]);}),Mizuki['addCommand']({'pattern':'setname\x20?(.*)','fromMe':!![],'desc':PN_DESC,'dontAddCommandList':![]},async(_0x2f1686,_0x1d6b73)=>{const _0x15c7bf=_0x581b35,_0x2d1545=_0x1d6b73[0x1];if(!_0x2d1545)return await _0x2f1686[_0x15c7bf(0x1ea)](errorMessage(NEED_WD));await _0x2f1686[_0x15c7bf(0x1e5)][_0x15c7bf(0x1ea)](_0x2f1686[_0x15c7bf(0x1e3)],SET_NAME,MessageType[_0x15c7bf(0x1d5)]),await _0x2f1686[_0x15c7bf(0x1e5)][_0x15c7bf(0x1d7)](_0x2d1545),await _0x2f1686[_0x15c7bf(0x1e5)]['sendMessage'](_0x2f1686[_0x15c7bf(0x1e3)],SETUPED_NAME,MessageType[_0x15c7bf(0x1d5)]);});function _0x4ab9(){const _0x121055=['*Successfully\x20updated\x20the\x20Name\x20✅*','622260HPlcmG','5bQofWh','text','*Successfully\x20updated\x20the\x20Bio\x20✅*','updateProfileName','645272WkoYXD','16979544kMHFpk','addCommand','Changes\x20Your\x20Profile\x20Bio','*⏫\x20Updating\x20Profile\x20Bio...*','1408792jSjZiY','@adiwajshing/baileys','1867977lySMGA','setStatus','../language','Please\x20Need\x20Word\x20!!','jid','*⏫\x20Updating\x20Profile\x20Name...*','client','3900212IirhGX','384811ZKKujP','Changes\x20Your\x20Profile\x20Name','../events','sendMessage'];_0x4ab9=function(){return _0x121055;};return _0x4ab9();}
