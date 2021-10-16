@@ -32,8 +32,6 @@
 	},
 	"homepage": "https://github.com/MrJoka-Thejaka/Mizuki#readme",
 	"dependencies": {
-	  "queen-mizuki": "^1.0.8",
-	  "cobrabot-patch": "^1.0.0",	
-	  "wa-sticker-formatter": "^4.0.14"	
+	  "queen-mizuki": "^1.0.9"	
 	}                      
   }
