@@ -24,7 +24,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         if (!fs.existsSync('config.env')) {
             fs.writeFileSync('config.env', `MIZUKI_SESSION="${st}"`);
         }
-        console.log(conn.user.jid.startsWith('94') || conn.user.jid.startsWith('994') ? '*⚠️ මේක කාටවත් දෙන්න එපා !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' + conn.user.name + '* 🛑' + '\n\n' + '*⚠️ Please Do Not Share This Code With Anyone  !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' +conn.user.name +'* 🛑' : '*⚠️ මේක කාටවත් දෙන්න එපා !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' + conn.user.name + '* 🛑' + '\n\n' + '*⚠️ Please Do Not Share This Code With Anyone  !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' +conn.user.name +'* 🛑'
+        console.log(conn.user.jid.startsWith('94') || conn.user.jid.startsWith('994') ? '*⚠️ මේක කාටවත් දෙන්න එපා !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' + conn.user.name + '* 🛑' + '\n\n' + '*⚠️ Please Do Not Share This Code With Anyone  !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' +conn.user.name +'* 🛑' : '*⚠️ මේක කාටවත් දෙන්න එපා !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' + conn.user.name + '* 🛑' + '\n\n' + '*⚠️ Please Do Not Share This Code With Anyone  !! ; I am Queen 𝐌𝐈𝐙𝐔𝐊𝐈 👸 ' +conn.user.name +'* 🛑')
         process.exit(0);
     });
     await conn.connect();
