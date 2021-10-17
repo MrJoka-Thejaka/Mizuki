@@ -32,7 +32,7 @@ const NO_RESULT = "*මට මෙම නම සහිත රටක් සොය�
 
 
 
-    Mizuki.addCommand({ pattern: 'co ?(.*)', fromMe: workt, desc: FONT_DESC,  deleteCommand: false}, async (message, match) => {
+    Mizuki.addCommand({ pattern: 'covid ?(.*)', fromMe: workt, desc: FONT_DESC,  deleteCommand: false}, async (message, match) => {
         if (!match[1]) return await message.client.sendMessage(message.jid,FONT_NEED,MessageType.text)
         var r_text = new Array ();
                   r_text[0] = "*😷Stay Safe*";
