@@ -1,1 +1,111 @@
-function _0x569d(_0x269256,_0x20116c){const _0x3030c0=_0x3030();return _0x569d=function(_0x569d5b,_0x1251b5){_0x569d5b=_0x569d5b-0xaf;let _0x372016=_0x3030c0[_0x569d5b];return _0x372016;},_0x569d(_0x269256,_0x20116c);}const _0x23b6a6=_0x569d;(function(_0x16cff2,_0x4a1e47){const _0x1d015a=_0x569d,_0x40643c=_0x16cff2();while(!![]){try{const _0x59fc4a=-parseInt(_0x1d015a(0xd2))/0x1*(parseInt(_0x1d015a(0xcd))/0x2)+-parseInt(_0x1d015a(0xc2))/0x3+-parseInt(_0x1d015a(0xb4))/0x4+parseInt(_0x1d015a(0xc9))/0x5+parseInt(_0x1d015a(0xc5))/0x6*(parseInt(_0x1d015a(0xcb))/0x7)+-parseInt(_0x1d015a(0xbe))/0x8+-parseInt(_0x1d015a(0xbd))/0x9*(-parseInt(_0x1d015a(0xb8))/0xa);if(_0x59fc4a===_0x4a1e47)break;else _0x40643c['push'](_0x40643c['shift']());}catch(_0x579d07){_0x40643c['push'](_0x40643c['shift']());}}}(_0x3030,0x288b3));const Mizuki=require('../events'),{MessageType}=require(_0x23b6a6(0xcf)),Config=require(_0x23b6a6(0xb3)),AS_DESC=_0x23b6a6(0xbb),GUARD=_0x23b6a6(0xd4),UNDERA='EMERGENCY!!🚨\x20\x20|\x20\x20\x20🛑\x20GROUP\x20UNDER\x20ATTACK\x20🛑\x20\x20|',MUTE=_0x23b6a6(0xb7),MUTED=_0x23b6a6(0xba),TAGAD=_0x23b6a6(0xb0),SCRI=_0x23b6a6(0xce),ADMIN=_0x23b6a6(0xd0),Language=require('../language'),Lang=Language[_0x23b6a6(0xd3)](_0x23b6a6(0xc0));Mizuki[_0x23b6a6(0xca)]({'pattern':'shield\x20?(.*)','fromMe':!![],'deleteCommand':![],'desc':Lang[_0x23b6a6(0xc1)],'dontAddCommandList':!![]},async(_0x39379b,_0x2537c0)=>{const _0x5bebae=_0x23b6a6;if(_0x2537c0[0x1]!==''){grup=await _0x39379b[_0x5bebae(0xc4)][_0x5bebae(0xc3)](_0x39379b[_0x5bebae(0xb6)]);var _0x527800=[];mesaj='',grup[_0x5bebae(0xbf)]['map'](async _0x57f1a0=>{const _0x79209f=_0x5bebae;_0x57f1a0[_0x79209f(0xd1)]&&(mesaj+='@'+_0x57f1a0['id'][_0x79209f(0xc7)]('@')[0x0]+'\x20',_0x527800['push'](_0x57f1a0['id']['replace'](_0x79209f(0xc8),_0x79209f(0xb1))));}),await _0x39379b[_0x5bebae(0xc4)][_0x5bebae(0xcc)](_0x39379b['jid'],''+_0x2537c0[0x1]+'\x0a'+mesaj,MessageType[_0x5bebae(0xb5)],{'contextInfo':{'mentionedJid':_0x527800},'previewType':0x0});}else{if(_0x2537c0[0x1]==''){grup=await _0x39379b[_0x5bebae(0xc4)][_0x5bebae(0xc3)](_0x39379b[_0x5bebae(0xb6)]);var _0x527800=[];mesaj='',grup['participants'][_0x5bebae(0xb2)](async _0x5a7508=>{const _0x4f8ead=_0x5bebae;mesaj+=_0x4f8ead(0xc6)+_0x5a7508['id'][_0x4f8ead(0xc7)]('@')[0x0]+'\x0a',_0x527800['push'](_0x5a7508['id'][_0x4f8ead(0xb9)](_0x4f8ead(0xc8),_0x4f8ead(0xb1)));}),await _0x39379b[_0x5bebae(0xc4)][_0x5bebae(0xcc)](_0x39379b[_0x5bebae(0xb6)],mesaj,MessageType[_0x5bebae(0xb5)],{'contextInfo':{'mentionedJid':_0x527800},'previewType':0x0});}}}),Mizuki['addCommand']({'pattern':_0x23b6a6(0xbc),'fromMe':!![],'deleteCommand':![],'desc':AS_DESC},async(_0x34f750,_0x290a76)=>{const _0x4ad71f=_0x23b6a6,_0x59b3b6='⛨\x20Safe\x20Mode\x20Activating\x20⛨';await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],_0x59b3b6,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)]['sendMessage'](_0x34f750[_0x4ad71f(0xb6)],UNDERA,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],MUTE,MessageType['text']),await _0x34f750['client'][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],SCRI,MessageType['text']),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750['client'][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750['client']['sendMessage'](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType['text']),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType['text']),await _0x34f750['client'][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750['client'][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750['client'][_0x4ad71f(0xcc)](_0x34f750['jid'],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],TAGAD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750['client'][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType['text']),await _0x34f750[_0x4ad71f(0xc4)]['sendMessage'](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],GUARD,MessageType[_0x4ad71f(0xaf)]),await _0x34f750[_0x4ad71f(0xc4)][_0x4ad71f(0xcc)](_0x34f750[_0x4ad71f(0xb6)],ADMIN,MessageType['text']);});function _0x3030(){const _0x3af328=['197161koykpL','getString','»»»»»»»»»»»»»»»»»»»»»»»»»»»»»\x0a*🚨Queen\x20Mizuki\x20Virus\x20Shield🛡️*\x0a\x0a\x20\x20\x20\x20\x20\x20\x20🛑🛑🛑🛑\x0a\x20\x20\x20\x20\x20\x20\x20\x0a\x0a\x0a\x0a```❤️‍🩹\x20Do\x20Not\x20Go\x20Up\x20❤️‍🩹```\x0a\x0a*❤️‍🩹\x20ඉහලට\x20යෑමෙන්\x20වලිකින්න.\x20❤️‍🩹*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Don\x27t\x20go\x20up\x20!*\x0a\x20\x20\x20\x20_🚨WARNING🚨_\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x0a\x0a```❤️‍🩹\x20Do\x20Not\x20Go\x20Up\x20❤️‍🩹```\x0a\x0a*❤️‍🩹\x20ඉහලට\x20යෑමෙන්\x20වලිකින්න.\x20❤️‍🩹*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Don\x27t\x20go\x20up\x20!*\x0a\x20\x20\x20\x20┏━━━━━━━━━━━━┓\x0a\x20_🚨WARNING🚨_\x0a┗━━━━━━━━━━━━┛\x20\x20\x20\x20\x0a\x0a\x0a\x0a```❤️‍🩹\x20Do\x20Not\x20Go\x20Up\x20❤️‍🩹```\x0a\x0a*❤️‍🩹\x20ඉහලට\x20යෑමෙන්\x20වලිකින්න.\x20❤️‍🩹*\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Don\x27t\x20go\x20up\x20!*\x0a\x20\x20\x20\x20┏━━━━━━━━━━━━┓\x0a\x20_🚨WARNING🚨_\x0a┗━━━━━━━━━━━━┛\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a```\x20©\x20ɪ\x20ᴀᴍ\x20ǫᴜᴇᴇɴ\x20ᴍɪᴢᴜᴋɪ\x20```\x0a»»»»»»»»»»»»»»»»»»»»»»»»»»»»»','text','📛ADMIN\x20TAKE\x20SOME\x20ACTION!!\x20📛','s.whatsapp.net','map','../config','374012mPnllG','extendedText','jid','.mute\x201h','290DnJagq','replace','.mute\x201d','ගෲප්\x20එකේ\x20ඇති\x20වන\x20ඕනෑම\x20ආකාරයක\x20WhatsApp\x20SPAM\x20පිළිබඳ\x20හදිසි\x20අවස්ථාවකදී\x20මෙම\x20විධානය\x20භාවිත\x20කර\x20හානිය\x20අවම\x20කරගත\x20හැක.','shield','148383qmNCGQ','1294296vnBQQB','participants','tagall','TAGALL_DESC','288327BovvhR','groupMetadata','client','6BmheIa','▫️\x20@','split','c.us','295815kPvnkT','addCommand','1241387AxjmtW','sendMessage','2TWHKdZ','Running\x20Shield....001','@adiwajshing/baileys','\x20EMERGENCY!!🚨\x20\x20|\x20\x20\x20🛑\x20GROUP\x20UNDER\x20ATTACK\x20🛑\x20\x20|','isAdmin'];_0x3030=function(){return _0x3af328;};return _0x3030();}
+const _0x207eb2 = _0x2264;
+(function (_0x139d91, _0x4c919e) {
+    const _0x370c54 = _0x2264, _0x3caa71 = _0x139d91();
+    while (!![]) {
+        try {
+            const _0x2bdec2 = -parseInt(_0x370c54(0x1b7)) / 0x1 * (parseInt(_0x370c54(0x1b5)) / 0x2) + -parseInt(_0x370c54(0x1bb)) / 0x3 + -parseInt(_0x370c54(0x1a1)) / 0x4 * (parseInt(_0x370c54(0x1b2)) / 0x5) + -parseInt(_0x370c54(0x1c1)) / 0x6 + parseInt(_0x370c54(0x1ad)) / 0x7 + -parseInt(_0x370c54(0x1a5)) / 0x8 + parseInt(_0x370c54(0x1a2)) / 0x9;
+            if (_0x2bdec2 === _0x4c919e)
+                break;
+            else
+                _0x3caa71['push'](_0x3caa71['shift']());
+        } catch (_0x55c422) {
+            _0x3caa71['push'](_0x3caa71['shift']());
+        }
+    }
+}(_0x24d4, 0x8c7f1));
+function _0x2264(_0x209f79, _0x548f82) {
+    const _0x24d441 = _0x24d4();
+    return _0x2264 = function (_0x226437, _0x44692f) {
+        _0x226437 = _0x226437 - 0x19c;
+        let _0x13e1a1 = _0x24d441[_0x226437];
+        return _0x13e1a1;
+    }, _0x2264(_0x209f79, _0x548f82);
+}
+const Mizuki = require(_0x207eb2(0x1b8)), {MessageType} = require(_0x207eb2(0x1b3)), Config = require(_0x207eb2(0x1c0)), AS_DESC = _0x207eb2(0x1b0), GUARD = _0x207eb2(0x1b9), UNDERA = _0x207eb2(0x1af), MUTE = '.mute\x201h', MUTED = _0x207eb2(0x1a6), TAGAD = _0x207eb2(0x1c2), SCRI = _0x207eb2(0x1a3), ADMIN = _0x207eb2(0x1bd), Language = require('../language'), Lang = Language[_0x207eb2(0x1ab)](_0x207eb2(0x1b4));
+function _0x24d4() {
+    const _0x5b28f8 = [
+        'split',
+        '9046016HGSedI',
+        '.mute\x201d',
+        'addCommand',
+        'jid',
+        'push',
+        'sendMessage',
+        'getString',
+        'TAGALL_DESC',
+        '5434240LINcus',
+        'replace',
+        'EMERGENCY!!🚨\x20\x20|\x20\x20\x20🛑\x20GROUP\x20UNDER\x20ATTACK\x20🛑\x20\x20|',
+        'ගෲප්\x20එකේ\x20ඇති\x20වන\x20ඕනෑම\x20ආකාරයක\x20WhatsApp\x20SPAM\x20පිළිබඳ\x20හදිසි\x20අවස්ථාවකදී\x20මෙම\x20විධානය\x20භාවිත\x20කර\x20හානිය\x20අවම\x20කරගත\x20හැක.',
+        'client',
+        '93485zemRFV',
+        '@adiwajshing/baileys',
+        'tagall',
+        '4BOcHjj',
+        'text',
+        '44539lOBMvr',
+        '../events',
+        '»»»»»»»»»»»»»»»»»»»»»»»»»»»»»\x0a*🚨Queen\x20Mizuki\x20Virus\x20Shield🛡️*\x0a\x0a\x20\x20\x20\x20\x20\x20\x20🛑🛑🛑🛑\x0a\x20\x20\x20\x20\x20\x20\x20\x0a\x0a\x0a\x0a```❤️‍🩹\x20Do\x20Not\x20Go\x20Up\x20❤️‍🩹```\x0a\x0a*❤️‍🩹\x20ඉහලට\x20යෑමෙන්\x20වලිකින්න.\x20❤️‍🩹*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Don\x27t\x20go\x20up\x20!*\x0a\x20\x20\x20\x20_🚨WARNING🚨_\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x0a\x0a```❤️‍🩹\x20Do\x20Not\x20Go\x20Up\x20❤️‍🩹```\x0a\x0a*❤️‍🩹\x20ඉහලට\x20යෑමෙන්\x20වලිකින්න.\x20❤️‍🩹*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Don\x27t\x20go\x20up\x20!*\x0a\x20\x20\x20\x20┏━━━━━━━━━━━━┓\x0a\x20_🚨WARNING🚨_\x0a┗━━━━━━━━━━━━┛\x20\x20\x20\x20\x0a\x0a\x0a\x0a```❤️‍🩹\x20Do\x20Not\x20Go\x20Up\x20❤️‍🩹```\x0a\x0a*❤️‍🩹\x20ඉහලට\x20යෑමෙන්\x20වලිකින්න.\x20❤️‍🩹*\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Don\x27t\x20go\x20up\x20!*\x0a\x20\x20\x20\x20┏━━━━━━━━━━━━┓\x0a\x20_🚨WARNING🚨_\x0a┗━━━━━━━━━━━━┛\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a\x0a```\x20©\x20ɪ\x20ᴀᴍ\x20ǫᴜᴇᴇɴ\x20ᴍɪᴢᴜᴋɪ\x20```\x0a»»»»»»»»»»»»»»»»»»»»»»»»»»»»»',
+        'applyCMD',
+        '1258902jcVxkN',
+        '▫️\x20@',
+        '.tgadmin\x20EMERGENCY!!🚨\x20\x20|\x20\x20\x20🛑\x20GROUP\x20UNDER\x20ATTACK\x20🛑\x20\x20|',
+        'tgadmin\x20?(.*)',
+        's.whatsapp.net',
+        '../config',
+        '2066964HFvjFo',
+        '📛ADMIN\x20TAKE\x20SOME\x20ACTION!!\x20📛',
+        'c.us',
+        '⛨\x20Safe\x20Mode\x20Activating\x20⛨',
+        'groupMetadata',
+        'map',
+        'extendedText',
+        '52HRjEga',
+        '18235548kGJYtQ',
+        'Running\x20Shield....001'
+    ];
+    _0x24d4 = function () {
+        return _0x5b28f8;
+    };
+    return _0x24d4();
+}
+Amdi[_0x207eb2(0x1ba)]({
+    'pattern': _0x207eb2(0x1be),
+    'fromMe': !![],
+    'deleteCommand': ![],
+    'desc': Lang[_0x207eb2(0x1ac)],
+    'dontAddCommandList': !![]
+}, async (_0x11a754, _0x22a579) => {
+    const _0x32d9fa = _0x207eb2;
+    if (_0x22a579[0x1] !== '') {
+        grup = await _0x11a754[_0x32d9fa(0x1b1)][_0x32d9fa(0x19e)](_0x11a754[_0x32d9fa(0x1a8)]);
+        var _0x4f7104 = [];
+        mesaj = '', grup['participants'][_0x32d9fa(0x19f)](async _0x4b744b => {
+            const _0x18f7c2 = _0x32d9fa;
+            _0x4b744b['isAdmin'] && (mesaj += '@' + _0x4b744b['id']['split']('@')[0x0] + '\x20', _0x4f7104[_0x18f7c2(0x1a9)](_0x4b744b['id'][_0x18f7c2(0x1ae)](_0x18f7c2(0x19c), _0x18f7c2(0x1bf))));
+        }), await _0x11a754[_0x32d9fa(0x1b1)][_0x32d9fa(0x1aa)](_0x11a754['jid'], '' + _0x22a579[0x1] + '\x0a' + mesaj, MessageType[_0x32d9fa(0x1a0)], {
+            'contextInfo': { 'mentionedJid': _0x4f7104 },
+            'previewType': 0x0
+        });
+    } else {
+        if (_0x22a579[0x1] == '') {
+            grup = await _0x11a754[_0x32d9fa(0x1b1)][_0x32d9fa(0x19e)](_0x11a754['jid']);
+            var _0x4f7104 = [];
+            mesaj = '', grup['participants']['map'](async _0x4125d7 => {
+                const _0x7d5dbc = _0x32d9fa;
+                mesaj += _0x7d5dbc(0x1bc) + _0x4125d7['id'][_0x7d5dbc(0x1a4)]('@')[0x0] + '\x0a', _0x4f7104[_0x7d5dbc(0x1a9)](_0x4125d7['id'][_0x7d5dbc(0x1ae)](_0x7d5dbc(0x19c), _0x7d5dbc(0x1bf)));
+            }), await _0x11a754[_0x32d9fa(0x1b1)][_0x32d9fa(0x1aa)](_0x11a754['jid'], mesaj, MessageType[_0x32d9fa(0x1a0)], {
+                'contextInfo': { 'mentionedJid': _0x4f7104 },
+                'previewType': 0x0
+            });
+        }
+    }
+}), Mizuki[_0x207eb2(0x1a7)]({
+    'pattern': 'shield',
+    'fromMe': !![],
+    'deleteCommand': ![],
+    'desc': AS_DESC
+}, async (_0x1671d7, _0x3e0300) => {
+    const _0x4eb9b2 = _0x207eb2, _0x4b8209 = _0x4eb9b2(0x19d);
+    await _0x1671d7['client'][_0x4eb9b2(0x1aa)](_0x1671d7['jid'], _0x4b8209, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], UNDERA, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], MUTE, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7['client'][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], SCRI, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)]['sendMessage'](_0x1671d7['jid'], GUARD, MessageType['text']), await _0x1671d7[_0x4eb9b2(0x1b1)]['sendMessage'](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType['text']), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7['jid'], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)]['sendMessage'](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType['text']), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)]['sendMessage'](_0x1671d7[_0x4eb9b2(0x1a8)], TAGAD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7['jid'], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType[_0x4eb9b2(0x1b6)]), await _0x1671d7[_0x4eb9b2(0x1b1)][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], GUARD, MessageType['text']), await _0x1671d7['client'][_0x4eb9b2(0x1aa)](_0x1671d7[_0x4eb9b2(0x1a8)], ADMIN, MessageType['text']);
+});
