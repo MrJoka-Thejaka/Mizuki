@@ -516,16 +516,16 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
     if (config.GREETING_TYPE == 'IMG' | config.GREETING_TYPE == 'img') {
         var wl = await getMessage(msg.key.remoteJid)
-        var byelogo = await axios.get(config.WELCOME_LOGO, {responseType: 'arraybuffer'})
+        var welcomelogo = await axios.get(config.WELCOME_LOGO, {responseType: 'arraybuffer'})
         if (wl !== false) {
-        await conn.sendMessage(msg.key.remoteJid, Buffer.from(byelogo.data), MessageType.image, {mimetype: Mimetype.png , caption:  wl.message})
+        await conn.sendMessage(msg.key.remoteJid, Buffer.from(welcomelogo.data), MessageType.image, {mimetype: Mimetype.png , caption:  wl.message})
         }
       }
       else if (config.GREETING_TYPE == 'GIF' | config.GREETING_TYPE == 'gif') {
         var wl = await getMessage(msg.key.remoteJid)
-        var byelogo = await axios.get(config.WELCOME_GIF, {responseType: 'arraybuffer'})
+        var welcomelogo = await axios.get(config.WELCOME_GIF, {responseType: 'arraybuffer'})
         if (wl !== false) {
-        await conn.sendMessage(msg.key.remoteJid, Buffer.from(byelogo.data), MessageType.video, {mimetype: Mimetype.gif , caption:  wl.message})
+        await conn.sendMessage(msg.key.remoteJid, Buffer.from(welcomelogo.data), MessageType.video, {mimetype: Mimetype.gif , caption:  wl.message})
         } 
       }
       return;
