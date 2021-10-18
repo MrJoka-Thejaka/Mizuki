@@ -499,7 +499,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 
     
     if (msg.messageStubType === 32 || msg.messageStubType === 28) {
-        const b_greeting_type, b_logo; 
+        var b_greeting_type, b_logo; 
         if (config.LOGO_BYE.includes('&')) {
             var split = config.LOGO_BYE.split('&');
             b_greeting_type = split[0];
@@ -522,7 +522,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     return;
     }
     else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-        const w_greeting_type, w_logo; 
+        var w_greeting_type, w_logo; 
         if (config.LOGO_WELCOME.includes('&')) {
             var split = config.LOGO_WELCOME.split('&');
             w_greeting_type = split[0];
