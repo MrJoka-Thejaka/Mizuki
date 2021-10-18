@@ -523,7 +523,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     }
     else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
         const w_greeting_type, w_logo; 
-        if (config.LOGO_BYE.includes('&')) {
+        if (config.LOGO_WELCOME.includes('&')) {
             var split = config.LOGO_WELCOME.split('&');
             w_greeting_type = split[0];
             w_logo = split[1];
