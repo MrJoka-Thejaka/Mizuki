@@ -2,7 +2,7 @@
    Mizuki - Mr.Joka*/
 
 
-const thiccysapi = require('queen-mizuki');
+const thiccysapi = require('textmaker-thiccy');
 const Mizuki = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const fs = require('fs');
