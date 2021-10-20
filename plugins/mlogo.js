@@ -2,9 +2,9 @@
    Mizuki - Mr.Joka*/
 
 
-const thiccysapi = require('textmaker-thiccy');
+const thiccysapi = require('queen-mizuki');
 const Mizuki = require('../events');
-const { MessageType } = require('@adiwajshing/baileys');
+const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
 const request = require('request');
@@ -20,7 +20,7 @@ if (Config.LANG == 'EN') desc_msg = 'Shows mlogo pack.'
 if (os.userInfo().homedir !== clh.pay) return;
 let workt = Config.WORKTYPE == 'public' ? false : true
 
-Mizuki.addCommand({ pattern: 'mlogo$', fromMe: workt, desc: desc_msg }, (async (message, match) => {
+Mizuki.addCommand({ pattern: 'tlogo$', fromMe: workt, desc: desc_msg }, (async (message, match) => {
     var t1 = ''
     var t2 = ''
     var t3 = ''
@@ -150,8 +150,9 @@ Mizuki.addCommand({ pattern: 'mlogo$', fromMe: workt, desc: desc_msg }, (async (
         command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Mrjoka_\n\n' +
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Developer;Mrjoka_'
 
-    await message.client.sendMessage(
-        message.jid, msg, MessageType.text, {quoted: message.data});
+    var packpic = await axios.get(`https://telegra.ph/file/4187af6e119f89587110c.png`, { responseType: 'arraybuffer' })
+
+    await message.sendMessage(Buffer.from(packpic.data), MessageType.image, { mimetype: Mimetype.jpg, caption: msg, quoted: message.data})
 
 }));
 
