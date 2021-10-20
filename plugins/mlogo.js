@@ -150,9 +150,8 @@ Mizuki.addCommand({ pattern: 'mlogo$', fromMe: workt, desc: desc_msg }, (async (
         command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Mrjoka_\n\n' +
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Developer;Mrjoka_'
 
-    var packpic = await axios.get(`https://mizuki.cf/images/mlogo.png`, { responseType: 'arraybuffer' })
-
-    await message.sendMessage(Buffer.from(packpic.data), MessageType.image, { mimetype: Mimetype.jpg, caption: msg, quoted: message.data})
+    await message.client.sendMessage(
+        message.jid, msg, MessageType.text, {quoted: message.data});
 
 }));
 
