@@ -20,7 +20,7 @@ if (Config.LANG == 'EN') desc_msg = 'Shows mlogo pack.'
 if (os.userInfo().homedir !== clh.pay) return;
 let workt = Config.WORKTYPE == 'public' ? false : true
 
-Mizuki.addCommand({ pattern: 'tlogo$', fromMe: workt, desc: desc_msg }, (async (message, match) => {
+Mizuki.addCommand({ pattern: 'mlogo$', fromMe: workt, desc: desc_msg }, (async (message, match) => {
     var t1 = ''
     var t2 = ''
     var t3 = ''
