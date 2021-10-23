@@ -498,10 +498,10 @@
         "lyrics": {
             "LY_DESC": "Finds the lyrics of the song.",
             "NEED": "```You Must Write Any Song!```",
-            "SLY": "```📃Lyrics```:",
-            "AUT": "```👩‍🎤Song Owner```:",
-            "BUL": "```🎼Found Song```:",
-            "ARAT": "```🔎Searched Song```:"
+            "SLY": "```📃 Lyrics``` :-",
+            "AUT": "```👩‍🎤 Song Owner``` :-",
+            "BUL": "```🎼 Found Song``` :-",
+            "ARAT": "```🔎 Searched Song``` :-"
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
