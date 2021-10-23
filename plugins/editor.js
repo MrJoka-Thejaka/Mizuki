@@ -20,7 +20,7 @@ const ENEDI_DESC = '🪄 Qᴜᴇᴇɴ ᴍɪᴢᴜᴋɪ ᴇᴅɪᴛ ᴘᴀᴄᴋ 
 
 
 
-    Mizuki.addCommand({ pattern: '.editpack$', fromMe: workt, desc: Lang.XMEDİA_DESC }, (async (message, match) => {
+    Mizuki.addCommand({ pattern: 'editpack$', fromMe: workt, desc: Lang.XMEDİA_DESC }, (async (message, match) => {
         if (Config.LANG == 'SI' || Config.LANG == 'EN') {
             await message.client.sendMessage(message.jid, SIEDI_DESC, MessageType.text, { quoted: message.data });
         } else {
