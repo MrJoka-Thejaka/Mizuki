@@ -33,5 +33,6 @@
 	"homepage": "https://github.com/MrJoka-Thejaka/Mizuki#readme",
 	"dependencies": {
 	  "queen-mizuki": "^1.0.9"	
+	  "discord-canvas": "^1.4.1"	
 	}                      
   }
