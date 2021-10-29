@@ -74,10 +74,6 @@ Array.prototype.remove = function() {
 };
 
 async function mizuki () {
-    var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
-    var ggg = Buffer.from(clh.cd, 'base64')
-    var ddd = ggg.toString('utf-8')
-    clh.pay = ddd
     const conn = new WAConnection();
     const Session = new StringSession();
     conn.version = [2, 2119, 6]
@@ -223,8 +219,7 @@ async function mizuki () {
         where: {
           info: 'StringSession'
         }
-    });
-    if (os.userInfo().homedir !== clh.pay) return;
+    });    
     const buff = Buffer.from(`${shs1}`, 'base64');  
     const one = buff.toString('utf-8'); 
     const bufft = Buffer.from(`${shl2}`, 'base64');  
@@ -254,7 +249,7 @@ async function mizuki () {
         }
     })    
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
+        console.log(`${chalk.green.bold('Mizuki')}${chalk.blue.bold('Bot')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
@@ -265,8 +260,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         );
         console.log(
             chalk.blueBright.italic('⬇️ Installing External Plugins...')
-        );
-        if (os.userInfo().homedir !== clh.pay) return;
+        );        
         // ==================== External Plugins ====================
         var plugins = await plugindb.PluginDB.findAll();
         plugins.map(async (plugin) => {
@@ -295,8 +289,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 
         console.log(
             chalk.green.bold('✅ Plugins Installed!')
-        );
-        if (os.userInfo().homedir !== clh.pay) return;
+        );        
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('👸 Mizuki' + afwhasena));
