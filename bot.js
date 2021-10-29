@@ -31,7 +31,7 @@ const Language = require('./language');
 const Lang = Language.getString('updater');
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsenaDuplicated', {
+const mizukiDB = config.DATABASE.define('mizukiwatasappbot', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -212,23 +212,12 @@ async function mizuki () {
             }
         }
     }, 7890);
-    var insult = await axios.get('https://gist.githubusercontent.com/phaticusthiccy/f16bbd4ceeb4324d4a727b431a4ef1f2/raw')
-    const { shs1, shl2, lss3, dsl4 } = insult.data.inside
     await config.DATABASE.sync();
-    var StrSes_Db = await WhatsAsenaDB.findAll({
+    var StrSes_Db = await mizukiDB.findAll({
         where: {
           info: 'StringSession'
         }
-    });    
-    const buff = Buffer.from(`${shs1}`, 'base64');  
-    const one = buff.toString('utf-8'); 
-    const bufft = Buffer.from(`${shl2}`, 'base64');  
-    const two = bufft.toString('utf-8'); 
-    const buffi = Buffer.from(`${lss3}`, 'base64');  
-    const three = buffi.toString('utf-8'); 
-    const buffu = Buffer.from(`${dsl4}`, 'base64');  
-    const four = buffu.toString('utf-8'); 
-    
+    }); 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
     if (StrSes_Db.length < 1) {
@@ -243,7 +232,7 @@ async function mizuki () {
         );
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+            await mizukiDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
@@ -272,7 +261,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     require('./plugins/' + plugin.dataValues.name + '.js');
                 }     
             }
-        });
+          });
         // ==================== End External Plugins ====================
 
         console.log(
@@ -295,6 +284,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         console.log(chalk.bgGreen('👸 Mizuki' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
         let EVA_ACTİON = config.LANG == 'SI' ? '*Mizuki Chatbot කෙනෙකු ලෙස ක්‍රියා කරයි!* 👸\n\n_මෙම මාදිලියේ පරමාර්ථය නම් බොට් එක සම්පුර්ණ ක්‍රියාකාරී කෘත්‍රිම බුද්ධි චැට් මෙවලමක් බවට පත් කිරීමයි._\n_පෙර පැවති ආකාරයට ආපසු යාමට_ *.fulleva off* _කමාන්ඩ් එක use කරන්න පුළුවන්._\n\n*Mizuki භාවිත කරනවාට ස්තූතියි 💌*\n    *- Eva and Mr.joka*' : '*Mizuki Works as an Chatbot!* 👸\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using Mizuki 💌*\n    *- Eva*'
+        
         if (config.WORKTYPE == 'public') {
         var userjidlogo = await axios.get(config.USER_LOGO, { responseType: 'arraybuffer' })
         const publicmsg = '*Mizuki පබ්ලික්(සැමට භාවිත කල හැකි) ආකාරයට වැඩ කරයි. 👸*\n\n_කරුණාකර මෙහි Plugins භාවිත නොකරන්න. මෙය ඔබේ LOG අංකයයි._\n_ඔබට වෙනත් ඕනෑම කතාබහක දී විධානයන් භාවිත කළ හැකිය :)_\n\n*ඔබේ බොට් පබ්ලික්(සැමට භාවිත කල හැකි ලෙස) ක්‍රියා කරයි. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Mizuki භාවිත කරනවාට ස්තූතියි 💌*'
