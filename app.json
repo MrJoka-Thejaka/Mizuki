@@ -91,7 +91,7 @@
 				
 		},
 		"HEROKU_API_KEY": {
-			"description": "Heroku API Key එක දාන්න.",
+			"description": "https://dashboard.heroku.com/account එකට ගිහින් යටටම scroll කරන්න. API Key කියල ඇති, reveal කියන button එක ඔබල එන එක කොපි කරල මෙතෙන්ට දාපන්",
 			"required": true
 		},
 		"MUTE_MESSAGE": {
