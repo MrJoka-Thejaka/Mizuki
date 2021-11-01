@@ -269,13 +269,18 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         );
 
         // ==================== Internal Plugins ====================
-        fs.readdirSync('./plugins').forEach(plugin => {
-            if(path.extname(plugin).toLowerCase() == '.js') {
-                require('./plugins/' + plugin);
+        var plugins = await plugindb.PluginDB.findAll();
+        plugins.map(async (plugin) => {
+            if (!fs.existsSync('./plugins/' + plugin.dataValues.name + '.js')) {
+                console.log(plugin.dataValues.name);
+                var response = await got(plugin.dataValues.url);
+                if (response.statusCode == 200) {
+                    fs.writeFileSync('./plugins/' + plugin.dataValues.name + '.js', response.body);
+                    require('./plugins/' + plugin.dataValues.name + '.js');
+                }     
             }
         });
         // ==================== End Internal Plugins ====================
-
         console.log(
             chalk.green.bold('✅ Plugins Installed!')
         );        
