@@ -133,56 +133,6 @@ Mizuki.addCommand({pattern: 'unblock ?(.*)', fromMe: true, desc: Lang.UNBLOCK_DE
         }
     }
 }));
-var SUCC_SETWELCOME = ''
-if (Config.LANG == 'SI') SUCC_SETWELCOME = '✅ පිළිගැනීමේ Gif සාර්ථකව සකසා ඇත'
-if (Config.LANG == 'EN') SUCC_SETWELCOME = '✅ Successfully Setted Welcome Gif'
-var SUCC_BYE = ''
-if (Config.LANG == 'SI') SUCC_BYE = '✅ සමුගැනීමෙ Gif සාර්ථකව සකසා ඇත'
-if (Config.LANG == 'EN') SUCC_BYE = '✅ Successfully Setted Goodbye Gif'
-var SUCC_ALIVE = ''
-if (Config.LANG == 'SI') SUCC_ALIVE = '✅ ALIVE LOGO සාර්ථකව සකසා ඇත'
-if (Config.LANG == 'EN') SUCC_ALIVE = '✅ Successfully Setted Alive Logo'
-var SUCC_LGOPK = ''
-if (Config.LANG == 'SI') SUCC_LGOPK = '✅ LOGO PACK IMG සාර්ථකව සකසා ඇත'
-if (Config.LANG == 'EN') SUCC_LGOPK = '✅ Successfully Setted Logo Pack Img'
-var NEED_PHOTO = ''
-if (Config.LANG == 'SI') NEED_PHOTO = '*❌ කරුණාකර වීඩියෝවකට හෝ පින්තූරයකට mention දෙන්න*'
-if (Config.LANG == 'EN') NEED_PHOTO = '*❌ Pleace Mention Video or Image*'
-var SETUP = ''
-if (Config.LANG == 'SI') SETUP = '*♻️ සකස් කරමින්...මඳක් රැඳී සිටින්න*'
-if (Config.LANG == 'EN') SETUP = '*♻️ Preparing...Please Wait*'
-const PP_DESC = ""
-
-Mizuki.addCommand({pattern: 'setalive$', fromMe: true, desc: PP_DESC, dontAddCommandList: true}, (async (message, match) => {    
-    if (!message.reply_message || !message.reply_message.image) return await message.client.sendMessage(message.jid,NEED_PHOTO, MessageType.text);
-    
-    var load = await message.client.sendMessage(message.jid,SETUP,MessageType.text);
-    var location = await message.client.downloadAndSaveMediaMessage({
-        key: {
-            remoteJid: message.reply_message.jid,
-            id: message.reply_message.id
-        },
-        message: message.reply_message.data.quotedMessage
-    });
-    await uploadByBuffer(fs.readFileSync(location), 'image/png')
-    .then(async(result) => {
-                const {
-              link,
-              path,              
-        } = result   
-await heroku.patch(baseURI + '/config-vars', { 
-    body: {
-        ['ALIVE_LOGO']: link
-    }      
-      })
-    await message.client.sendMessage(message.jid, '*' + SUCC_ALIVE + '*', MessageType.text)
-    })
-}));
-
-
-
-
-
 if (Config.WORKTYPE == 'private') {
 
     Mizuki.addCommand({pattern: 'jid ?(.*)', fromMe: true, desc: Lang.JID_DESC}, (async (message, match) => {    
