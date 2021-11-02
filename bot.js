@@ -76,7 +76,7 @@ Array.prototype.remove = function() {
 async function mizuki () {
     const conn = new WAConnection();
     const Session = new StringSession();
-    conn.version = [2, 2126, 14]
+    conn.version = [2, 2140, 12]
     
     var biography_var = ''
     await heroku.get(baseURI + '/config-vars').then(async (vars) => {
