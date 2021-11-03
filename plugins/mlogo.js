@@ -1,5 +1,5 @@
 /*Codded by Phaticusthiccy & Mr.joka
-   Mizuki - Mr.Joka*/
+   Mizuki - Mr.Joka
 
 
 const thiccysapi = require('textmaker-thiccy');
@@ -747,4 +747,4 @@ Mizuki.addCommand({ pattern: 'cup ?(.*)', fromMe: workt, dontAddCommandList: tru
         }
     });
 }));
-
+*/
