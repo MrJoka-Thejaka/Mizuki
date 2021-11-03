@@ -40,7 +40,7 @@ We are using wit.ai's voice recognition for voicy conversation.
 The all input datas must be english. We are using google translate before send users inputs.
 
 👸 Mizuki 1.0 beta version
-*/
+
 
 
 const Mizuki = require('../events');
@@ -311,3 +311,5 @@ Mizuki.addCommand({ pattern: 'fulleva ?(.*)', desc: fulleva_dsc, fromMe: true, u
         }
     }
 }));
+
+*/
