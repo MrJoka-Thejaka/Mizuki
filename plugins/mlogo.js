@@ -9,15 +9,9 @@ const fs = require('fs');
 const Config = require('../config')
 const request = require('request');
 const axios = require('axios')
-const os = require('os');
-var clh = { cd: 'L3Jvb3QvTWl6dWtpLw==', pay: '' }
-var ggg = Buffer.from(clh.cd, 'base64')
-var ddd = ggg.toString('utf-8')
-clh.pay = ddd
 var desc_msg = ''
 if (Config.LANG == 'SI') desc_msg = 'Shows mlogo pack.'
 if (Config.LANG == 'EN') desc_msg = 'Shows mlogo pack.'
-if (os.userInfo().homedir !== clh.pay) return;
 let workt = Config.WORKTYPE == 'public' ? false : true
 
 Mizuki.addCommand({ pattern: 'mlogo$', fromMe: workt, desc: desc_msg }, (async (message, match) => {
