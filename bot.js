@@ -528,11 +528,19 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             var sup = config.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.COBRASUPPORT == '94710158664-1629124003') {
-            var tsup = config.COBRASUPPORT.split(',');
+        if (config.SEWSUPPORT == '94785435462-1627812354') {
+            var tsup = config.SEWSUPPORT.split(',');
             if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.QASUPPORT1 == '96176912958-1458298055') {
+        if (config.SEWSUPPORT2 == '94785435462-1628835469') {
+            var tsup = config.SEWSUPPORT2.split(',');
+            if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ; 
+        }
+        if (config.SEWSUPPORT3 == '94785435462-1628835633') {
+            var tsup = config.SEWSUPPORT3.split(',');
+            if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;    
+        }
+        if (config.QASUPPORT1 == '94757405652-1631633729') {
             var nsup = config.QASUPPORT1.split(',');
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
@@ -540,7 +548,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             var nsup = config.AMDANIWASA.split(',');
             if (msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return;
         }
-        if (config.QASUPPORT2 == '393472769604-1446476993') {
+        if (config.QASUPPORT2 == '94757405652-1631905677') {
             var nsup = config.QASUPPORT2.split(',');
             if (msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return;
         }
