@@ -278,7 +278,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         console.log(
             chalk.green.bold('✅ Plugins Installed!')
         );        
-        await new Promise(r => setTimeout(r, 1100));
+        await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('👸 Mizuki' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
