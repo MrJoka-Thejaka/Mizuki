@@ -1,3 +1,4 @@
+/*
 const Mizuki = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const got = require('got');
@@ -41,7 +42,7 @@ Mizuki.addCommand({ pattern: 'movie ?(.*)', fromMe: workt, desc: MOVIE_DESC }, (
 
   
   
-  
+  */
   
   
   
