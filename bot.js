@@ -262,7 +262,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic('⬇️  Installing Plugins...')
+            chalk.blueBright.italic('✅ Plugins Installed!')
         );
 
         // ==================== Internal Plugins ====================
@@ -273,7 +273,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         });
         // ==================== End Internal Plugins ====================
         console.log(
-            chalk.green.bold('✅ Plugins Installed!')
+            chalk.green.bold('⬇️  Installing Plugins...')
         );        
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
