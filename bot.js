@@ -19,6 +19,7 @@ const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
 const simpleGit = require('simple-git');
 const git = simpleGit();
+const SUPGRP = 'https://chat.whatsapp.com/GG6M5L3epcl4L3dpXc4yDS'
 const crypto = require('crypto');
 const nw = '```Blacklist Defected!```'
 const heroku = new Heroku({
@@ -625,6 +626,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         // ==================== End Message Catcher ====================
 
                         // ==================== Error Message ====================
+                       
+                        
                         try {
                             await command.function(whats, match);
                         }
@@ -637,7 +640,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n_මෙම දෝශ සටහනෙහි ඔබේ අංකය හෝ SUDO අංකයක් ඇතුළත් විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ වට්ස්ඇප් සමූහයට පණිවුඩ දැමිය හැකිය._' +
                                     '\n_මෙම පණිවිඩය ඔබගේ log අංකයට යා යුතුව තිබුණි (සුරැකි පණිවිඩ)._' +
-                                    '\n_ඔබට මෙම සමූහයට :- https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo දෝෂය වාර්තා කළ හැකිය._\n\n' +
+                                    '\n_ඔබට මෙම සමූහයට :-' +  SUPGRP + 'දෝෂය වාර්තා කළ හැකිය._\n\n' +
                                     '*සිදුවුණු දෝෂය:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false});
 
@@ -760,7 +763,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻 කණගාටුයි මට මෙම දෝෂය කියවීමට නොහැකි වුනා!! 🙇🏻*' +
-                                        '\n_වැඩිදුර උදව් සඳහා ඔබට අපගේ Support group :- https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo එකට පැමිණිය හැකිය._'
+                                        '\n_වැඩිදුර උදව් සඳහා ඔබට අපගේ Support group :-' SUPGRP 'එකට පැමිණිය හැකිය._'
                                         , MessageType.text
                                     );
                                 }
@@ -770,7 +773,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n* An error has occurred!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
                                     '\n_You can write to our Telegram group for help._' +
-                                    '\n_Aslo you can join our support group:_ https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo' +
+                                    '\n_Aslo you can join our support group:_' + SUPGRP +
                                     '\n_This message should have gone to your number (saved messages)._\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
@@ -894,7 +897,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
-                                        '\n_You can write to our Support group :- https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo for more help._'
+                                        '\n_You can write to our Support group :-' + SUPGRP + 'for more help._'
                                         , MessageType.text
                                     );
                                 }    
