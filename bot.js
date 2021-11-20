@@ -19,7 +19,6 @@ const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
 const simpleGit = require('simple-git');
 const git = simpleGit();
-const SUPGRP = 'https://chat.whatsapp.com/GG6M5L3epcl4L3dpXc4yDS'
 const crypto = require('crypto');
 const nw = '```Blacklist Defected!```'
 const heroku = new Heroku({
@@ -626,7 +625,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         // ==================== End Message Catcher ====================
 
                         // ==================== Error Message ====================
-                       
+                       const SUPGRP = 'https://chat.whatsapp.com/GG6M5L3epcl4L3dpXc4yDS'
                         
                         try {
                             await command.function(whats, match);
