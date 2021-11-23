@@ -8,7 +8,7 @@
 <p align="center">
     Project of 👸 Mizuki - Makes it easy and fun to use Whatsapp. Also  Made in sri lanka.
     <br>
-        <a href="https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo">Support Group</a> |
+        <a href="https://chat.whatsapp.com/CNpAbRR8SPABENOZV1JVQp">Public Group</a> |
         <a href="https://Wa.me/+94715343050">‍Mr.joka Whatsapp </a> |
         
     < stay safe 😷 Enjoy Chatting in Whatsapp 👸>
