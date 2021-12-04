@@ -4,7 +4,7 @@ const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Our Special func:
+
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
@@ -20,6 +20,7 @@ module.exports = {
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegra.ph/file/52d12737a0d15888155ec.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'SI' : process.env.LANGUAGE.toUpperCase(),
+    BOT_NAME: process.env.BOT_NAME === undefined ? 'Mizuki' : process.env.BOT_NAME,
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,    
     ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/52d12737a0d15888155ec.jpg' : process.env.ALIVE_LOGO,
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
