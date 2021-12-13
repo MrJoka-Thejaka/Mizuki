@@ -14,8 +14,7 @@ exports.getBuffer = getBuffer = async(url) => {
     if (!res.ok) throw "Error while fetching data"
     const buff = await res.buffer()
     if (buff) return buff
-        //if (buff)
-        //    return { type: res.headers.get('content-type'), result: buff }
+        
 }
 
 exports.fetchJson = fetchJson = (url, options) => new Promise(async(resolve, reject) => {
