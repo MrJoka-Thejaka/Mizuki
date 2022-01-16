@@ -6,16 +6,16 @@ you may not use this file except in compliance with the License.
 👸 Mizuki 1.0 beta version
 */
 
-//We'll keep the commands here..
+
 var config = require('./config');
 var Commands = [];
 
 function addCommand(info, func) {
-    //  A simple function to add commands.
+    
     var types = ['photo', 'image', 'text', 'message'];
 
     var infos = {
-        fromMe: info['fromMe'] === undefined ? true : info['fromMe'], // Or Sudo
+        fromMe: info['fromMe'] === undefined ? true : info['fromMe'], 
         onlyGroup: info['onlyGroup'] === undefined ? false : info['onlyGroup'],
         onlyPinned: info['onlyPinned'] === undefined ? false : info['onlyPinned'],
         onlyPm: info['onlyPm'] === undefined ? false : info['onlyPm'],
@@ -23,6 +23,7 @@ function addCommand(info, func) {
         desc: info['desc'] === undefined ? '' : info['desc'],
         usage: info['usage'] === undefined ? '' : info['usage'],
         dontAddCommandList: info['dontAddCommandList'] === undefined ? false : info['dontAddCommandList'],
+        admincmd: info['admincmd'] === undefined ? false : info['admincmd'],
         warn: info['warn'] === undefined ? '' : info['warn'],
         function: func
     };
