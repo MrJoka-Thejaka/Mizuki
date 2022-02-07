@@ -1,4 +1,4 @@
-FROM fusuf/whatsasena:latest
+FROM mrjoka/mizuki:mforce
 ##Queen Mizuki
 RUN git clone https://github.com/MrJoka-Thejaka/Mizuki /root/QueenMizuki
 WORKDIR /root/QueenMizuki/
