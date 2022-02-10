@@ -29,6 +29,6 @@
 	},
 	"homepage": "https://mizuki.cf",
 	"dependencies": {
-	  "queen-mizuki": "^2.0.1"	
+	  "queen-mizuki": "^2.0.0"	
 	}                      
   }
